@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -13,8 +13,6 @@ Greetings! I am Yong Cao.
 I am a Ph.D. student in Computer Science at [Huazhong University of Science and Technology](https://www.hust.edu.cn/), working with Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). I am a member of the [Epic lab](https://aiwac.net/epic/). 
 <!-- Prior to UIUC, I got my bachelor's degree from [College of Electrical Engineering](https://ee.scu.edu.cn/), [Sichuan University](https://scu.edu.cn/) in 2018 with SCU Outstanding Undergraduate Award. -->
 My research interests lie in the general area of Natural Language Processing, with a special focus on dialog system, question answering based on knowledge graph and knowledge-aware generation.
-
-
 News
 ------
 * [2021-10] I am thrilled to receive [Microsoft Research PhD Fellowship](https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!people)! Thanks Microsoft! 
