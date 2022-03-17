@@ -33,19 +33,23 @@ Education
 
 Experience
 ------
-  * **05/2021 - 08/2021, Microsoft Research Redmond**
-    * Research Intern at the Cognitive Services Research group
-    * Mentor: [Ruochen Xu](https://www.microsoft.com/en-us/research/people/ruox/). I am happy to work with [Shuohang Wang](https://sites.google.com/site/shuohangsite/), [Luowei Zhou](https://luoweizhou.github.io/), [Chenguang Zhu](https://www.microsoft.com/en-us/research/people/chezhu/). 
-    * Focus: Vision-Language Pretraining with Event Knowledge
-  * **06/2020 - 08/2020, IBM T.J. Watson Research Center**
-    * Research Intern at the Foundations of AI Reasoning group
-    * Mentor: [Tengfei Ma](https://sites.google.com/site/matf0123/home), [Mo Yu](https://scholar.google.com/citations?user=vC8DssQAAAAJ&hl=en). I am happy to work with [Lingfei Wu](https://sites.google.com/a/email.wm.edu/teddy-lfwu/) and [Tian Gao](https://researcher.watson.ibm.com/researcher/view.php?person=us-tgao).
-    * Focus: Graph Compession via Optimal Transport
+  * **10/2021 - 05/2022, Xiaomi**
+    * Research Intern at the Knowledge Graph group
+    * Mentor: Dai Wen and Huiwen Liu.
+    * Focus: Question Answering Based on Knowledge Graph
+  * **01/2021 - 06/2021, Deepwisdom**
+    * Research Intern at the Natural Language Processing group
+    * Mentor: Yang Zhang.
+    * Focus: AntuML, NER, Text Classification and Information Extraction
+  * **07/2020 - 10/2020, The Chinese University of Hong Kong, Shenzhen**
+    * Visiting Student at the SDS College
+    * Mentor: Prof. [Kai Hwang](https://myweb.cuhk.edu.cn/hwangkai) and Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
+    * Focus: Deep Learning Benchmark, Huawei Atlas 200DK.
     
     
 News
 ------
-* [2021-08] I am thrilled to receive [Microsoft Research PhD Fellowship](https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!people)! Thanks Zhijiang Lab! 
+* [2021-08] I am thrilled to receive [2021 International outh Talent Fund](https://www.zhejianglab.com/)! Thanks Zhijiang Lab! 
 * [2021-08] Did a tutorial at ACL 2021 about [Event-centric Natural Language Processing](https://cogcomp.seas.upenn.edu/page/tutorial.202108/) with [Muhao](https://muhaochen.github.io/), [Qiang](https://www.qiangning.info/), [Hongming](https://www.cse.ust.hk/~hzhangal/), [Heng](http://blender.cs.illinois.edu/hengji.html), [Kathy](http://www.cs.columbia.edu/~kathy) and [Dan](https://www.cis.upenn.edu/~danroth). 
 * [2021-06] Our [COVID-KG](https://blender.cs.illinois.edu/paper/COVIDKG.pdf) was awarded as [Best Demo Paper at NAACL 2021](https://2021.naacl.org/blog/best-demo-award/).
 * [2021-06] Our work of knowledge extraction and reasoning has been reported by the department [Manling Li Produces Award-winning Event Schema Research with Advisor and Mentor Heng Ji](https://cs.illinois.edu/news/manling-li-produces-award-winning-event-schema-research-with-advisor-and-mentor-heng-ji).
