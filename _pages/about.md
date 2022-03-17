@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Greetings! I am Manling Li.
+Greetings! I am Yong Cao.
 
-I am a Ph.D. student in Computer Science at [University of Illinois Urbana-Champaign](https://illinois.edu/), working with Prof. [Heng Ji](http://blender.cs.illinois.edu/hengji.html). I am a member of the [Blender lab](http://blender.cs.illinois.edu/index.html). 
-<!-- Prior to UIUC, I got my master's degree from [Institute of Computing Technology](http://www.ict.ac.cn/), [Chinese Academy of Sciences](http://www.cas.cn/) in 2018, and received my bachelor's degree from [University of Science and Technology Beijing](http://www.ustb.edu.cn/index.asp) with Beijing Outstanding Undergraduate Award in 2015. -->
-My research interests lie in the general area of Natural Language Processing, with a special focus on multimedia knowledge extraction and knowledge-aware generation.
+I am a Ph.D. student in Computer Science at [Huazhong University of Science and Technology](https://www.hust.edu.cn/), working with Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). I am a member of the [Epic lab](https://aiwac.net/epic/). 
+<!-- Prior to UIUC, I got my bachelor's degree from [College of Electrical Engineering](https://ee.scu.edu.cn/), [Sichuan University](https://scu.edu.cn/) in 2018 with SCU Outstanding Undergraduate Award. -->
+My research interests lie in the general area of Natural Language Processing, with a special focus on dialog system, question answering based on knowledge graph and knowledge-aware generation.
 
 
 News
@@ -62,31 +62,3 @@ Experience
     * Research Intern at the Foundations of AI Reasoning group
     * Mentor: [Tengfei Ma](https://sites.google.com/site/matf0123/home), [Mo Yu](https://scholar.google.com/citations?user=vC8DssQAAAAJ&hl=en). I am happy to work with [Lingfei Wu](https://sites.google.com/a/email.wm.edu/teddy-lfwu/) and [Tian Gao](https://researcher.watson.ibm.com/researcher/view.php?person=us-tgao).
     * Focus: Graph Compession via Optimal Transport
-
-
-Academic Service
-------
-
-**Senior Program Committee**: 
-  * International Joint Conference on Artificial Intelligence (IJCAI), 2021
-
-**Program Committee**: 
-  * Association for Computational Linguistics (ACL) Rolling Review, 2021
-  * Annual Meeting of the Association for Computational Linguistics (ACL), 2021
-  * Conference on Empirical Methods in Natural Language Processing (EMNLP), 2021
-  * Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HLT), 2021
-  * AAAI Conference on Artificial Intelligence (AAAI), 2021-2022
-  * The Web Conference (WWW), 2021-2022
-  * Conference on Automated Knowledge Base Construction (AKBC), 2021
-  * Conference of the European Chapter
-of the Association for Computational Linguistics (EACL), 2021
-  * Document Intelligence workshop at ACM SIGKDD Conference (KDD DI Workshop), 2021
-  * International Conference on Natural Language Processing and Chinese Computing (NLPCC) 2021
-  * International Conference on Computational Linguistics (COLING), 2020
-  * Conference on Asia-Pacific Chapter of the Association for Computational Linguistics (AACL), 2020
-  * China National Conference on Computational Linguistics (CCL), 2020
-
-**Journal Reviewer**: 
-  * IEEE MultiMedia
-  * Journal of Artificial Intelligence Research
-  * Journal of Advances in Information Technology

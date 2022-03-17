@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Manling Li"
-  avatar           : "manlingli_small.png"
-  bio              : "CS Ph.D. Candidate at UIUC (manling2@illinois.edu)"
-  location         : "Champaign, Illinois"
+  name             : "Yong Cao"
+  avatar           : "yongcao.png"
+  bio              : "CS Ph.D. Candidate at HUST (yongcao_epic@hust.edu.cn)"
+  location         : "Wuhan, Hubei, China"
   employer         :  
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=6U4SXnUAAAAJ&hl=en"
-  email            : "manling2@illinois.edu"
+  googlescholar    : "https://scholar.google.com.hk/citations?user=-v8WGmQAAAAJ&hl=en"
+  email            : "yongcao_epic@hust.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "limanling"
+  github           : "yongcaoplus"
   google_plus      :
   keybase          :
   instagram        :
