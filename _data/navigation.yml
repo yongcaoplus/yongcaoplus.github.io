@@ -3,9 +3,6 @@ main:
   - title: "Publications"
     url: /publications/
 
-#  - title: "Talks"
-#    url: /talks/
-    
   - title: "Awards"
     url: /awards/
 
@@ -23,3 +20,7 @@ main:
 
 #  - title: "Teaching"
 #    url: /teaching/
+
+
+#  - title: "Talks"
+#    url: /talks/
