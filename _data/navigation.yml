@@ -4,19 +4,19 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+    url: /talks/
     
-  - title: "Portfolio"
+  - title: "Awards"
     url: /portfolio/
-        
+
   - title: "Blog Posts"
-    url: /year-archive/
-    
+    url: https://www.zhihu.com/people/cao-yong-86-52-94/posts
+
   - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: /files/cv_yong.pdf
+
+#  - title: "Guide"
+#    url: /markdown/
+
+#  - title: "Teaching"
+#    url: /teaching/
