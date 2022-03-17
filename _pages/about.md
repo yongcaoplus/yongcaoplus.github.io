@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Yong Cao, currently a Ph.D. student 👨‍🎓 in Computer Science at [Huazhong University of Science and Technology](https://www.hust.edu.cn/), working with Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). I am a member of the [EPIC lab](http://epic.hust.edu.cn/xsjl/jlfw.htm/). 🚩
+I am Yong Cao, currently a Ph.D. 👨‍🎓 in Computer Science at [Huazhong University of Science and Technology](https://www.hust.edu.cn/), working with Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). I am a member of the [EPIC lab](http://epic.hust.edu.cn/xsjl/jlfw.htm/). 🚩
 <!-- Prior to UIUC, I got my bachelor's degree from [College of Electrical Engineering](https://ee.scu.edu.cn/), [Sichuan University](https://scu.edu.cn/) in 2018 with SCU Outstanding Undergraduate Award. -->
-My research interests lie in the general area of Natural Language Processing, with a special focus on dialog system, question answering based on knowledge graph and knowledge-aware generation. :wave:
+My research interests lie in the general area of Natural Language Processing, with a special focus on dialog system, question answering based on knowledge graph and knowledge-aware generation. 👨‍💻
 
-Download my [Resume](https://yongcaoplus.github.io/files/cv_yong.pdf)}. 👈
+Download my [Resume](https://yongcaoplus.github.io/files/cv_yong.pdf). 👈
 
 Education
 ------
