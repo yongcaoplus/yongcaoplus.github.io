@@ -18,14 +18,16 @@ Education
   * **Huazhong University of Science and Technology**
     * Ph.D. in Computer Science, 2018.09 -
     * Advisor: Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
-    * Thesis Title: Structural Event Knowledge Acquisition from Multimedia Data
-    * Thesis Committee: Heng Ji, Kyunghyun Cho, Shih-Fu Chang, Jiawei Han, Chengxiang Zhai
+    * Thesis Title: Research on Dialogue System in Psychological Counseling Domain
   * **The Chinese University of Hong Kong, Shenzhen**
     * Visiting Student, 2020.07 - 2020.10
     * Co-Advisor: Prof. [Kai Hwang](https://myweb.cuhk.edu.cn/hwangkai) and Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
   * **Sichuan University**
     * B.E. in Telecommunication Engineering, 2014 - 2018
-    <!-- * SCU Outstanding Undergraduate Award (Top 5%) -->
+    * Advisor: Prof. Wudi Wei
+    * Thesis Title: Speech Emotion Analysis based on Convolutional Neural Network
+    * SCU Outstanding Undergraduate Award (Top 5%)
+    
 
 <!-- Publications
 ------ -->
