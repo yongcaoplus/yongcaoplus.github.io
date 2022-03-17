@@ -12,7 +12,7 @@ I am Yong Cao, currently a Ph.D. 👨‍🎓 in Computer Science at [Huazhong Un
 <!-- Prior to UIUC, I got my bachelor's degree from [College of Electrical Engineering](https://ee.scu.edu.cn/), [Sichuan University](https://scu.edu.cn/) in 2018 with SCU Outstanding Undergraduate Award. -->
 My research interests lie in the general area of Natural Language Processing, with a special focus on dialog system, question answering based on knowledge graph and knowledge-aware generation. 👨‍💻
 
-Download my [Resume](https://yongcaoplus.github.io/files/cv_yong.pdf). 👈
+Download my [CV](https://yongcaoplus.github.io/files/cv_yong.pdf). 👈
 
 Education
 ------
