@@ -53,5 +53,5 @@ Experience
     
 News
 ------
-* [2021-08] I am thrilled to receive [2021 International outh Talent Fund](https://www.zhejianglab.com/)! Thanks Zhijiang Lab! 
+* [2021-08] I am thrilled to receive [2021 International Youth Researcher Fund](https://www.zhejianglab.com/)! Thanks Zhijiang Lab! 
 * ...
