@@ -39,7 +39,7 @@ Experience
 ------
   * **10/2021 - 05/2022, Xiaomi**
     * Research Intern at the Knowledge Graph group
-    * Mentor: Dai Wen and Huiwen Liu.
+    * Mentor: Wen Dai and Huiwen Liu.
     * Focus: Question Answering Based on Knowledge Graph
   * **01/2021 - 06/2021, Deepwisdom**
     * Research Intern at the Natural Language Processing group
