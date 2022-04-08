@@ -14,7 +14,6 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
 # 2022
 
 **Yong Cao**, Wei Li, Xianzhi Li, Min Chen, Guangyong Chen, Zhengdao Li, Long Hu, Kai Hwang.[Explore More Guidance: A Task-aware Instruction Network for Sign Language Translation Enhanced with Data Augmentation](). Findings of North American Chapter of the Association for Computational Linguistics (**Findings of NAACL 2022**).
