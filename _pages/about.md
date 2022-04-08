@@ -53,5 +53,7 @@ Experience
     
 News
 ------
+* [2022-04] One paper ([A Task-aware Instruction Network for Sign Language Translation]()) was accepted by Findings NAACL 2022.
+* [2022-03] Succeed in getting the authorization of invention patent named “[A construction method of intelligent information extraction system based on automatic machine learning platform](http://pss-system.cnipa.gov.cn/sipopublicsearch/patentsearch/showViewList-jumpToView.shtml)”.
 * [2021-08] I am thrilled to receive [2021 International Youth Researcher Fund](https://www.zhejianglab.com/)! Thanks Zhijiang Lab! 
 * ...
