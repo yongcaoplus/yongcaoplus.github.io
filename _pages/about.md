@@ -44,7 +44,7 @@ Experience
   * **01/2021 - 06/2021, Deepwisdom**
     * Research Intern at the Natural Language Processing group
     * Mentor: Yang Zhang.
-    * Focus: AntuML, NER, Text Classification and Information Extraction
+    * Focus: AutoML, NER, Text Classification and Information Extraction
   * **07/2020 - 10/2020, The Chinese University of Hong Kong, Shenzhen**
     * Visiting Student at the SDS College
     * Mentor: Prof. [Kai Hwang](https://myweb.cuhk.edu.cn/hwangkai) and Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
