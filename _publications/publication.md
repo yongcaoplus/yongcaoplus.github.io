@@ -1,6 +1,5 @@
 ---
 collection: publications
-permalink: /publication/
 ---
 
 # 2022
