@@ -62,7 +62,7 @@ Experience
     
 News
 ------
-* [2022-10] I am excited to be sponsored by the Chinese Scholarship Council for my visit to the [University of Copenhagen](https://www.ku.dk/english/)! Thanks to my homeland--China!
+* [2022-10] I am excited to be sponsored by the [Chinese Scholarship Council](https://www.cscse.edu.cn/cscse/zwlx/jxj/index.html) for my visit to the [University of Copenhagen](https://www.ku.dk/english/)! Thanks China!
 * [2022-08] One paper [Generative adversarial network based abnormal behavior detection in massive crowd videos: a Hajj case study](https://link.springer.com/article/10.1007/s12652-021-03323-5) was accepted by Journal of Ambient Intelligence and Humanized Computing. 
 * [2022-05] One paper [Scenario-Based AI Benchmark Evaluation of Distributed Cloud/Edge Computing Systems](https://ieeexplore.ieee.org/abstract/document/9779956) was accepted by IEEE Transactions on Computers.
 * [2022-04] One paper [A Task-aware Instruction Network for Sign Language Translation](https://arxiv.org/abs/2204.05953)) was accepted by Findings of NAACL 2022.
