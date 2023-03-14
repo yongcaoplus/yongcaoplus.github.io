@@ -45,7 +45,7 @@ Experience
   * **06/2022 - 10/2022, Alibaba DAMO**
     * Research Intern at the  group
     * Mentor: [Ruixue Ding](https://scholar.google.com.hk/citations?hl=zh-CN&user=wAktw3cAAAAJ&view_op=list_works&sortby=pubdate) and [Boli Chen](https://scholar.google.com.hk/citations?user=P3IMdZ4AAAAJ&hl=zh-CN&oi=ao).
-    * Focus: Semantic Re-ranking
+    * Focus:  Semantic Textual Similarity, Re-ranking
   * **10/2021 - 05/2022, Xiaomi**
     * Research Intern at the Knowledge Graph group
     * Mentor: Wen Dai and Huiwen Liu.
