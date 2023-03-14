@@ -18,10 +18,14 @@ Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, 
 Education
 ------
 <!-- ### Education -->
+  * **University of Copenhagen**
+    * Ph.D. in Computer Science, 2022.10 - 2024.03
+    * Advisor: Prof. [Daniel Hershcovich](https://danielhers.github.io/)
+    * Research Topic: Cross-Cultural Dialogue Agents
   * **Huazhong University of Science and Technology**
     * Ph.D. in Computer Science, 2018.09 -
     * Advisor: Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
-    * Thesis Title: Research on Dialogue System in Psychological Counseling Domain
+    * Research Topic: Dialogue Agents in Psychological Counseling Domain
   * **The Chinese University of Hong Kong, Shenzhen**
     * Visiting Student, 2020.07 - 2020.10
     * Co-Advisor: Prof. [Kai Hwang](https://myweb.cuhk.edu.cn/hwangkai) and Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
@@ -38,6 +42,10 @@ Education
 
 Experience
 ------
+  * **06/2022 - 10/2022, Alibaba DAMO**
+    * Research Intern at the  group
+    * Mentor: [Ruixue Ding](https://scholar.google.com.hk/citations?hl=zh-CN&user=wAktw3cAAAAJ&view_op=list_works&sortby=pubdate) and [Boli Chen](https://scholar.google.com.hk/citations?user=P3IMdZ4AAAAJ&hl=zh-CN&oi=ao).
+    * Focus: Semantic Re-ranking
   * **10/2021 - 05/2022, Xiaomi**
     * Research Intern at the Knowledge Graph group
     * Mentor: Wen Dai and Huiwen Liu.
@@ -54,7 +62,10 @@ Experience
     
 News
 ------
-* [2022-04] One paper ([A Task-aware Instruction Network for Sign Language Translation](https://arxiv.org/abs/2204.05953)) was accepted by Findings of NAACL 2022.
+* [2022-10] I am excited to be sponsored by the Chinese Scholarship Council for my visit to the University of Copenhagen! Thanks to my homeland--China!
+* [2022-08] One paper [Generative adversarial network based abnormal behavior detection in massive crowd videos: a Hajj case study](https://link.springer.com/article/10.1007/s12652-021-03323-5) was accepted by Journal of Ambient Intelligence and Humanized Computing. 
+* [2022-05] One paper [Scenario-Based AI Benchmark Evaluation of Distributed Cloud/Edge Computing Systems](https://ieeexplore.ieee.org/abstract/document/9779956) was accepted by IEEE Transactions on Computers.
+* [2022-04] One paper [A Task-aware Instruction Network for Sign Language Translation](https://arxiv.org/abs/2204.05953)) was accepted by Findings of NAACL 2022.
 * [2022-03] Succeed in getting the authorization of invention patent named “[Smart Information Extraction System based on Automatic Machine Learning Platform](https://yongcaoplus.github.io/files/2022_patent_deepwisdom.pdf)”.
 * [2021-08] I am thrilled to receive [2021 Zhejiang Lab's International Talent Fund for Young Professionals](https://www.zhejianglab.com/)! Thanks Zhejiang Lab! 
 * ...
