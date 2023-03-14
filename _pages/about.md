@@ -19,7 +19,7 @@ Education
 ------
 <!-- ### Education -->
   * **University of Copenhagen**
-    * Ph.D. in Computer Science, 2022.10 - 2024.03
+    * Visiting Student, 2022.10 - 2024.03
     * Advisor: Prof. [Daniel Hershcovich](https://danielhers.github.io/)
     * Research Topic: Cross-Cultural Dialogue Agents
   * **Huazhong University of Science and Technology**
