@@ -7,7 +7,7 @@ author_profile: true
 
 # 2022
 
-**Yong Cao**, Wei Li, Xianzhi Li, Min Chen, Guangyong Chen, Zhengdao Li, Long Hu, Kai Hwang.[Explore More Guidance: A Task-aware Instruction Network for Sign Language Translation Enhanced with Data Augmentation](https://arxiv.org/abs/2204.05953). Findings of North American Chapter of the Association for Computational Linguistics (**Findings of NAACL 2022**). [Poster](https://yongcaoplus.github.io/files/poster_naacl2022.pdf)
+**Yong Cao**, Wei Li, Xianzhi Li, Min Chen, Guangyong Chen, Zhengdao Li, Long Hu, Kai Hwang.[Explore More Guidance: A Task-aware Instruction Network for Sign Language Translation Enhanced with Data Augmentation](https://arxiv.org/abs/2204.05953). Findings of North American Chapter of the Association for Computational Linguistics (**Findings of NAACL 2022**). [Poster](https://kdocs.cn/l/cimgkQfwMnuo)
 
 # 2021
 Tarik Alafif, Bander Alzahrani, **Yong Cao**, Reem Alotaibi, Ahmed Barnawi, Min Chen. [Generative adversarial network based abnormal behavior detection in massive crowd videos: a Hajj case study](https://link.springer.com/article/10.1007/s12652-021-03323-5), Journal of Ambient Intelligence and Humanized Computing, 2021: 1-12.

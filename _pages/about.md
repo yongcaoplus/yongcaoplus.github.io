@@ -54,6 +54,6 @@ Experience
 News
 ------
 * [2022-04] One paper ([A Task-aware Instruction Network for Sign Language Translation](https://arxiv.org/abs/2204.05953)) was accepted by Findings of NAACL 2022.
-* [2022-03] Succeed in getting the authorization of invention patent named “[Smart Information Extraction System based on Automatic Machine Learning Platform](https://yongcaoplus.github.io/files/2022_patent_deepwisdom.pdf)”.
+* [2022-03] Succeed in getting the authorization of invention patent named “[Smart Information Extraction System based on Automatic Machine Learning Platform](https://kdocs.cn/l/cvWX74y5GS9Z)”.
 * [2021-08] I am thrilled to receive [2021 Zhejiang Lab's International Talent Fund for Young Professionals](https://www.zhejianglab.com/)! Thanks Zhejiang Lab! 
 * ...
