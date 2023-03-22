@@ -4,6 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+# 2023
+**Yong Cao**, Li Zhou, Seolhwa Lee, Laura Cabello Piqueras, Min Chen, Daniel Hershcovich, [Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
+
+**Yong Cao**, Yova Kementchedjhieva, Ruixiang Cui, Antonia Karamolegkou, Li Zhou, Megan Dare, Lucia Donatelli, Daniel Hershcovich, [Cultural Adaptation of Recipes](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
+
+Li Zhou, Laura Cabello Piqueras, **Yong Cao**, Daniel Hershcovich, [Cross-Cultural Transfer Learning for Chinese Offensive Language Detection](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
+
 
 # 2022
 
