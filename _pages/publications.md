@@ -14,6 +14,7 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
 # 2023
 **Yong Cao**, Li Zhou, Seolhwa Lee, Laura Cabello Piqueras, Min Chen, Daniel Hershcovich, [Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
 
