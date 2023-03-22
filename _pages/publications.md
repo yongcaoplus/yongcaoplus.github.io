@@ -14,6 +14,13 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+# 2023
+**Yong Cao**, Li Zhou, Seolhwa Lee, Laura Cabello Piqueras, Min Chen, Daniel Hershcovich, [Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
+
+**Yong Cao**, Yova Kementchedjhieva, Ruixiang Cui, Antonia Karamolegkou, Li Zhou, Megan Dare, Lucia Donatelli, Daniel Hershcovich, [Cultural Adaptation of Recipes](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
+
+Li Zhou, Laura Cabello Piqueras, **Yong Cao**, Daniel Hershcovich, [Cross-Cultural Transfer Learning for Chinese Offensive Language Detection](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
+
 # 2022
 
 **Yong Cao**, Wei Li, Xianzhi Li, Min Chen, Guangyong Chen, Zhengdao Li, Long Hu, Kai Hwang.[Explore More Guidance: A Task-aware Instruction Network for Sign Language Translation Enhanced with Data Augmentation](). Findings of North American Chapter of the Association for Computational Linguistics (**Findings of NAACL 2022**).
