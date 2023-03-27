@@ -5,6 +5,28 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+</style>
+
+[<a href="https://scholar.google.com.hk/citations?user=-v8WGmQAAAAJ&hl=zh-CN&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><font style="font-weight:bold;color:#41ba83;font-style: normal;">Google Scholar</font><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>]
+[<a href="https://www.semanticscholar.org/author/Yong-Cao/2112402733" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><font style="font-weight:bold;color:#41ba83;font-style: normal;">Semantic Scholar</font><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>]
+[<a href="https://orcid.org/0000-0002-3889-0382" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><font style="font-weight:bold;color:#41ba83;font-style: normal;">DBLP</font><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>]
+
+<p>
+
+    <a href="https://dblp.uni-trier.de/pid/239/4537.html" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font>
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><font style="font-size: 14px;font-style: italic;"> ,</font>
+    <a href="https://dblp.uni-trier.de/pid/239/4537.html" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Xianzhi Li</font>
+        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><font style="font-size: 14px;font-style: italic;"> and</font>
+    <a href="https://dblp.uni-trier.de/pid/239/4537.html" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+
+<font style="font-size: 14px;font-style: italic;">are supervisors.<br></font>
+
 <h1>2023</h1>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
