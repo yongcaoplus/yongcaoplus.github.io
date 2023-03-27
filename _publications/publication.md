@@ -11,7 +11,7 @@ author_profile: true
 
 Li Zhou, Laura Cabello Piqueras, **Yong Cao**, Daniel Hershcovich, [Cross-Cultural Transfer Learning for Chinese Offensive Language Detection](), Cross-Cultural Considerations in NLP Workshop at EACL 2023.
 
-
+  
 # 2022
 
 Tarik Alafif, Bander Alzahrani, **Yong Cao**, Reem Alotaibi, Ahmed Barnawi, Min Chen, [Generative adversarial network based abnormal behavior detection in massive crowd videos: a Hajj case study](https://link.springer.com/article/10.1007/s12652-021-03323-5), Journal of Ambient Intelligence and Humanized Computing, 4077–4088 (2022).
