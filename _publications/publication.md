@@ -15,14 +15,14 @@ author_profile: true
   background: #41ba83; /* 设置背景颜色 */
   border-radius: 8px; /* 设置圆角的值 */
   overflow: hidden; /* 确保内容在圆角区域内 */
-        vertical-align: middle;
+        /*vertical-align: middle;*/
 }
 
 .bg-green a,
 .bg-green sup {
   display: inline; /* 使元素成为内联块级元素，以使圆角和背景颜色生效 */
   padding: 10px 2px; /* 可选的：添加一些内边距 */
-    /*vertical-align: middle;*/
+    vertical-align: middle;
 }
 </style>
 
