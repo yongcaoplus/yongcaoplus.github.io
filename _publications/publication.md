@@ -21,7 +21,7 @@ author_profile: true
 .bg-green a,
 .bg-green sup {
   display: inline; /* 使元素成为内联块级元素，以使圆角和背景颜色生效 */
-  padding: 10px 2px; /* 可选的：添加一些内边距 */
+  padding: 10px 0px; /* 可选的：添加一些内边距 */
     vertical-align: middle;
 }
 </style>
