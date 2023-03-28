@@ -41,7 +41,7 @@ author_profile: true
 
 <font style="font-size: 14px;font-style: italic;">are supervisors.<br></font>
 
-<h1>2023</h1>
+<h1>2023</h1> 
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="https://sites.google.com/view/c3nlp" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a>
