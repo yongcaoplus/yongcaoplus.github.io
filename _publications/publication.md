@@ -15,7 +15,7 @@ author_profile: true
   background: #41ba83; /* 设置背景颜色 */
   border-radius: 8px; /* 设置圆角的值 */
   overflow: hidden; /* 确保内容在圆角区域内 */
-        /*vertical-align: middle;*/
+        /*vertical-align: bottom;*/
 }
 
 .bg-green a,
@@ -44,7 +44,7 @@ author_profile: true
 <h1>2023</h1> 
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://sites.google.com/view/c3nlp" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a>
+<a href="https://arxiv.org/pdf/2303.17466.pdf" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a>
     <div class="bg-green">
     <sup><font style="color: white;">
         &nbsp;C3NLP@EACL&nbsp;
@@ -57,7 +57,7 @@ author_profile: true
 <p>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://sites.google.com/view/c3nlp" style="text-decoration: none;"><font style="font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cultural Adaptation of Recipes.</font></a>
+<a href="https://arxiv.org/pdf/2303.17927.pdf" style="text-decoration: none;"><font style="font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cultural Adaptation of Recipes.</font></a>
     <div class="bg-green">
     <sup><font style="color: white;">
         &nbsp;C3NLP@EACL&nbsp;
