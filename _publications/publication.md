@@ -15,7 +15,7 @@ author_profile: true
   background: #41ba83; /* 设置背景颜色 */
   border-radius: 8px; /* 设置圆角的值 */
   overflow: hidden; /* 确保内容在圆角区域内 */
-        /*vertical-align: bottom;*/
+        vertical-align: middle;
 }
 
 .bg-green a,
