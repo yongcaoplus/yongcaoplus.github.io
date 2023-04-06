@@ -48,7 +48,7 @@ author_profile: true
 <p>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://sites.google.com/view/c3nlp" style="text-decoration: none;"><font style="font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cross-Cultural Transfer Learning for Chinese Offensive Language Detection.</font></a>
+<a href="https://arxiv.org/pdf/2303.17927.pdf" style="text-decoration: none;"><font style="font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cross-Cultural Transfer Learning for Chinese Offensive Language Detection.</font></a>
 <br>
 <font style="font-size: 14px;font-style: italic;">Cross-Cultural Considerations in NLP Workshop at EACL 2023<br></font>
 <font style="font-size: 14px;">Li Zhou, Laura Cabello Piqueras, <b>Yong Cao</b>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>
