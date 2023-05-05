@@ -36,6 +36,7 @@ author_profile: true
 <font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;">Xianzhi Li</font>, Huiwen Liu, Wen Dai, Shuai Chen, Bin Wang, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>
 </div>
 
+<p>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="https://arxiv.org/pdf/2303.17466.pdf" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a>
