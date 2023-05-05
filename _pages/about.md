@@ -62,6 +62,7 @@ Experience
     
 News
 ------
+* [2023-05] One papers were accepted by Findings of [ACL 2023](https://2023.aclweb.org/).
 * [2023-03] Three papers were accepted by [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at EACL 2023.
 * [2022-10] I am excited to be sponsored by the [Chinese Scholarship Council](https://www.cscse.edu.cn/cscse/zwlx/jxj/index.html) for my visit to the [University of Copenhagen](https://www.ku.dk/english/)! Thanks China!
 * [2022-08] One paper [Generative adversarial network based abnormal behavior detection in massive crowd videos: a Hajj case study](https://link.springer.com/article/10.1007/s12652-021-03323-5) was accepted by Journal of Ambient Intelligence and Humanized Computing. 

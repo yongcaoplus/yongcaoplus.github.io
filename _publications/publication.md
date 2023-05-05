@@ -30,7 +30,15 @@ author_profile: true
 <h1>2023</h1>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://sites.google.com/view/c3nlp" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a>
+<a href="https://arxiv.org/pdf/2305.02118.pdf" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Pay More Attention to Relation Exploration for Knowledge Base Question Answering.</font></a>
+<br>
+<font style="margin: 0;font-size: 14px;font-style: italic;">Findings of Annual Meeting of the Association for Computational Linguistics 2023<br></font>
+<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;">Xianzhi Li</font>, Huiwen Liu, Wen Dai, Shuai Chen, Bin Wang, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>
+</div>
+
+
+<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
+<a href="https://arxiv.org/pdf/2303.17466.pdf" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a>
 <br>
 <font style="margin: 0;font-size: 14px;font-style: italic;">Cross-Cultural Considerations in NLP Workshop at EACL 2023<br></font>
 <font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Li Zhou, Seolhwa Lee, Laura Cabello Piqueras, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>
@@ -77,7 +85,7 @@ author_profile: true
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="https://arxiv.org/abs/2204.05953" style="text-decoration: none;"><font style="font-weight: bold;font-style: normal;color: black;font-size: 16px;">Explore More Guidance: A Task-aware Instruction Network for Sign Language Translation Enhanced with Data Augmentation.</font> </a>
 <br>
-<font style="font-size: 14px;font-style: italic;">Findings of North American Chapter of the Association for Computational Linguistics<br></font>
+<font style="font-size: 14px;font-style: italic;">Findings of North American Chapter of the Association for Computational Linguistics 2022<br></font>
 <font style="font-size: 14px;"><b>Yong Cao</b>, Wei Li, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Xianzhi Li</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, Guangyong Chen, Zhengdao Li, Long Hu, Kai Hwang</font>
 </div>
 
