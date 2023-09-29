@@ -62,12 +62,11 @@ Experience
     
 News
 ------
+* [2023-08] Our paper was reported by Danish newspaper [Børsen](https://borsen.dk/nyheder/ai/populaer-chatbot-promoverer-amerikanske-vaerdier-og-normer).
+* [2023-07] Our paper was reported by several Danish media, including [Politiken](https://politiken.dk/debat/klummer/jarlner/art9429359/Samtalerobot-er-et-redskab-for-amerikansk-kulturimperialisme), [Børsen](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [Danish TV2](https://www.tv2kosmopol.dk/nyhedsarkiv?date=2023-07-10&clip=634dda2b-8303-4527-aeff-a96418116135), [Copenhagen University](https://di.ku.dk/english/news/2023/chatgpt-promotes-american-norms-and-values/)!
 * [2023-05] One paper with Xiaomi [Pay More Attention to Relation Exploration for Knowledge Base Question Answering](https://arxiv.org/pdf/2305.02118.pdf) was accepted by Findings of ACL 2023.
 * [2023-03] Three papers were accepted by [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at EACL 2023.
 * [2022-10] I am excited to be sponsored by the [Chinese Scholarship Council](https://www.cscse.edu.cn/cscse/zwlx/jxj/index.html) for my visit to the [University of Copenhagen](https://www.ku.dk/english/)! Thanks China!
 * [2022-08] One paper [Generative adversarial network based abnormal behavior detection in massive crowd videos: a Hajj case study](https://link.springer.com/article/10.1007/s12652-021-03323-5) was accepted by Journal of Ambient Intelligence and Humanized Computing. 
 * [2022-05] One paper [Scenario-Based AI Benchmark Evaluation of Distributed Cloud/Edge Computing Systems](https://ieeexplore.ieee.org/abstract/document/9779956) was accepted by IEEE Transactions on Computers.
-* [2022-04] One paper [A Task-aware Instruction Network for Sign Language Translation](https://arxiv.org/abs/2204.05953)) was accepted by Findings of NAACL 2022.
-* [2022-03] Succeed in getting the authorization of invention patent named “[Smart Information Extraction System based on Automatic Machine Learning Platform](https://yongcaoplus.github.io/files/2022_patent_deepwisdom.pdf)”.
-* [2021-08] I am thrilled to receive [2021 Zhejiang Lab's International Talent Fund for Young Professionals](https://www.zhejianglab.com/)! Thanks Zhejiang Lab! 
 * ...
