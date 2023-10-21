@@ -17,6 +17,7 @@ Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, 
 
 News
 ------
+* [2023-10] One paper [Cultural Adaptation of Recipes]() was accepted by Transactions of the Association for Computational Linguistics (TACL).
 * [2023-08] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by Danish newspaper [Børsen](https://borsen.dk/nyheder/ai/populaer-chatbot-promoverer-amerikanske-vaerdier-og-normer).
 * [2023-07] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by several Danish media, including [Politiken](https://politiken.dk/debat/klummer/jarlner/art9429359/Samtalerobot-er-et-redskab-for-amerikansk-kulturimperialisme), [Børsen](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [Danish TV2](https://www.tv2kosmopol.dk/nyhedsarkiv?date=2023-07-10&clip=634dda2b-8303-4527-aeff-a96418116135), [Ekstra Bladet](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [University of Copenhagen](https://di.ku.dk/english/news/2023/chatgpt-promotes-american-norms-and-values/)!
 * [2023-05] One paper with Xiaomi [Pay More Attention to Relation Exploration for Knowledge Base Question Answering](https://arxiv.org/pdf/2305.02118.pdf) was accepted by Findings of ACL 2023.

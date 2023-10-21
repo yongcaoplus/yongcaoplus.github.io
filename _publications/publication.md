@@ -29,6 +29,16 @@ author_profile: true
 
 <h1>2023</h1>
 
+
+<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
+<a href="https://arxiv.org/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cultural Adaptation of Recipes.</font></a>
+<br>
+<font style="margin: 0;font-size: 14px;font-style: italic;">Transactions of the Association for Computational Linguistics (TACL)<br></font>
+<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Yova Kementchedjhieva, Ruixiang Cui, Antonia Karamolegkou, Li Zhou, Megan Dare, Lucia Donatelli, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>
+</div>
+
+<p>
+
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="https://arxiv.org/pdf/2305.02118.pdf" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Pay More Attention to Relation Exploration for Knowledge Base Question Answering.</font></a>
 <br>
