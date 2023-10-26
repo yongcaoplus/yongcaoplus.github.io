@@ -27,6 +27,12 @@ News
 * [2022-05] One paper [Scenario-Based AI Benchmark Evaluation of Distributed Cloud/Edge Computing Systems](https://ieeexplore.ieee.org/abstract/document/9779956) was accepted by IEEE Transactions on Computers.
 * ...
 
+
+Talk
+------
+* [2023-10] Cultural Adaptation of Large Language Models. DIKU Bits, University of Copenhagen. [[Abstract](https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/)], [[Slides](/files/cv_yong.pdf)].
+* ...
+
 Education
 ------
 <!-- ### Education -->

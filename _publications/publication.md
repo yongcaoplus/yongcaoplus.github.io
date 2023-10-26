@@ -29,6 +29,14 @@ author_profile: true
 
 <h1>2023</h1>
 
+<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
+<a href="https://arxiv.org/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking.</font></a>
+<br>
+<font style="margin: 0;font-size: 14px;font-style: italic;">arXiv<br></font>
+<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Ruixue Ding, Boli Chen, Xianzhi Li, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>, Pengjun Xie, Fei Huang.
+</div>
+
+<p>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="https://arxiv.org/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cultural Adaptation of Recipes.</font></a>
