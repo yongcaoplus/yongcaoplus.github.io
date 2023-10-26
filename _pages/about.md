@@ -30,7 +30,7 @@ News
 
 Talk
 ------
-* [2023-10] Cultural Adaptation of Large Language Models. DIKU Bits, University of Copenhagen. [[Abstract](https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/)], [[Slides](/files/cv_yong.pdf)].
+* [2023-10] Cultural Adaptation of Large Language Models. DIKU Bits, University of Copenhagen. [[Abstract](https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/)], [[Slides](/files/2023_DIKU_Bits.pdf)].
 * ...
 
 Education
