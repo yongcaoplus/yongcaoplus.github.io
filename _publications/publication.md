@@ -57,7 +57,7 @@ author_profile: true
 <p>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://arxiv.org/pdf/2303.17466.pdf" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a>
+<a href="https://arxiv.org/pdf/2303.17466.pdf" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study.</font></a> <a href="/files/ChatGPTEvaluation_EACLworkshop.pdf">[PDF]</a>
 <br>
 <font style="margin: 0;font-size: 14px;font-style: italic;">Cross-Cultural Considerations in NLP Workshop at EACL 2023<br></font>
 <font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Li Zhou, Seolhwa Lee, Laura Cabello Piqueras, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>
@@ -66,7 +66,7 @@ author_profile: true
 <p>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://sites.google.com/view/c3nlp" style="text-decoration: none;"><font style="font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cultural Adaptation of Recipes.</font></a>
+<a href="https://sites.google.com/view/c3nlp" style="text-decoration: none;"><font style="font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cultural Adaptation of Recipes.</font></a> <a href="/files/Recipe_EACLworkshop.pdf">[PDF]</a>
 <br>
 <font style="font-size: 14px;font-style: italic;">Cross-Cultural Considerations in NLP Workshop at EACL 2023<br></font>
 <font style="font-size: 14px;"><b>Yong Cao</b>, Yova Kementchedjhieva, Ruixiang Cui, Antonia Karamolegkou, Li Zhou, Megan Dare, Lucia Donatelli, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>
