@@ -33,7 +33,7 @@ author_profile: true
 <a href="" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">MLPs Compass: What is learned when MLPs are combined with PLMs?</font></a>
 <br>
 <font style="margin: 0;font-size: 14px;font-style: italic;">IEEE ICASSP 2024<br></font>
-<font style="margin: 0;font-size: 14px;">Li Zhou, Wenyu Chen, <b>Yong Cao</b>, Dingyi Zeng, Wanlong Liu, Hong Qu.
+<font style="margin: 0;font-size: 14px;">Li Zhou, Wenyu Chen, <b>Yong Cao</b>, Dingyi Zeng, Wanlong Liu, Hong Qu. </font>
 </div>
 
 <p>
