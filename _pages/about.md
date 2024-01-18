@@ -17,6 +17,7 @@ Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, 
 
 News
 ------
+* [2024-01] Two papers were accepted by EACL 2024, one for main:[Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking](https://arxiv.org/abs/2309.01606), and one for findings:[Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys]().
 * [2023-12] We are orgainzing the [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at ACL 2024. More details will be updated soon.
 * [2023-12] One paper [MLPs Compass: What is learned when MLPs are combined with PLMs?]() was accepted by IEEE ICASSP 2024.
 * [2023-10] I am excited to be selected as DAAD AInet fellow for the Postdoc-NeT-AI 11/2023 Networking Week on Human-centered AI.

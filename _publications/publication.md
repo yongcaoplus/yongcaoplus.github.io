@@ -27,10 +27,29 @@ author_profile: true
 
 <font style="font-size: 14px;font-style: italic;">are my supervisors.<br></font>
 
-<h1>2023</h1>
+<h1>2024</h1>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">MLPs Compass: What is learned when MLPs are combined with PLMs?</font></a>
+<a href="https://arxiv.org/abs/2309.01606/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking.</font></a>
+<br>
+<font style="margin: 0;font-size: 14px;font-style: italic;">EACL 2024<br></font>
+<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Ruixue Ding, Boli Chen, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;">Xianzhi Li</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>, Pengjun Xie, Fei Huang.
+</div>
+
+<p>
+
+<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
+<a href="" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys.</font></a>
+<br>
+<font style="margin: 0;font-size: 14px;font-style: italic;">IEEE ICASSP 2024<br></font>
+<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>. 
+</div>
+
+<p>
+
+
+<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
+<a href="https://arxiv.org/abs/2401.01667" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">MLPs Compass: What is learned when MLPs are combined with PLMs?</font></a>
 <br>
 <font style="margin: 0;font-size: 14px;font-style: italic;">IEEE ICASSP 2024<br></font>
 <font style="margin: 0;font-size: 14px;">Li Zhou, Wenyu Chen, <b>Yong Cao</b>, Dingyi Zeng, Wanlong Liu, Hong Qu. </font>
@@ -38,14 +57,9 @@ author_profile: true
 
 <p>
 
-<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://arxiv.org/abs/2309.01606/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking.</font></a>
-<br>
-<font style="margin: 0;font-size: 14px;font-style: italic;">arXiv<br></font>
-<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Ruixue Ding, Boli Chen, Xianzhi Li, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>, Pengjun Xie, Fei Huang.
-</div>
 
-<p>
+<h1>2023</h1>
+
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="https://arxiv.org/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Cultural Adaptation of Recipes.</font></a>
