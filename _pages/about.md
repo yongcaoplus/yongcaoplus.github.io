@@ -17,6 +17,7 @@ Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, 
 
 News
 ------
+* [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at the University of Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
 * [2024-01] Two papers were accepted by EACL 2024, one to the main conference:[Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking](https://arxiv.org/abs/2309.01606), and one to findings:[Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys]().
 * [2023-12] We are orgainzing the [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at ACL 2024. More details will be updated soon.
 * [2023-12] One paper [MLPs Compass: What is learned when MLPs are combined with PLMs?]() was accepted by IEEE ICASSP 2024.
@@ -31,6 +32,7 @@ News
 
 Talk
 ------
+* [2024-02] Cultural Considerations in Dialogue Systems, University of Marburg. [[Slides](/files/2024_Marburg.pdf)]
 * [2023-10] Cultural Adaptation of Large Language Models. DIKU Bits, University of Copenhagen. [[Abstract](https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/)] [[Slides](/files/2023_DIKU_Bits.pdf)]
 * ...
 
