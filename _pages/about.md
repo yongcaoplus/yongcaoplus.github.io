@@ -32,7 +32,7 @@ News
 
 Talk
 ------
-* [2024-03] Cultural Considerations in Large Language Models, Max Planck Institute for Human Development
+* [2024-03] Cultural Considerations in Large Language Models, Max Planck Institute for Human Development.
 * [2024-02] Cultural Considerations in Dialogue Systems, Philipps-University Marburg. [[Slides](/files/2024_Marburg.pdf)]
 * [2023-10] Cultural Adaptation of Large Language Models. DIKU Bits, University of Copenhagen. [[Abstract](https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/)] [[Slides](/files/2023_DIKU_Bits.pdf)]
 * ...
