@@ -19,7 +19,7 @@ News
 ------
 * [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality).
 * [2024-02] Give a talk at [Philipps-University Marburg](https://www.uni-marburg.de/en). 
-* [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at the University of Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
+* [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at Philipps-University Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
 * [2024-01] Two papers were accepted by EACL 2024, [one](https://arxiv.org/abs/2309.01606) to the main conference and [one](https://arxiv.org/abs/2401.10352) to findings.
 * [2023-12] We are orgainzing the [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at ACL 2024.
 * [2023-12] [One paper](https://arxiv.org/abs/2401.01667) was accepted by IEEE ICASSP 2024.
