@@ -17,21 +17,22 @@ Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, 
 
 News
 ------
+* [2024-03] Give a talk on Cultural Considerations in Large Language Models at Max Planck Institute for Human Development.
+* [2024-02] Give a talk on Cultural Considerations in Dialogue Systems at the University of Marburg. 
 * [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at the University of Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
-* [2024-01] Two papers were accepted by EACL 2024, one to the main conference:[Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking](https://arxiv.org/abs/2309.01606), and one to findings:[Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys]().
-* [2023-12] We are orgainzing the [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at ACL 2024. More details will be updated soon.
-* [2023-12] One paper [MLPs Compass: What is learned when MLPs are combined with PLMs?]() was accepted by IEEE ICASSP 2024.
-* [2023-10] I am excited to be selected as DAAD AInet fellow for the Postdoc-NeT-AI 11/2023 Networking Week on Human-centered AI.
-* [2023-10] One paper [Cultural Adaptation of Recipes]() was accepted by Transactions of the Association for Computational Linguistics (TACL).
+* [2024-01] Two papers were accepted by EACL 2024, [one](https://arxiv.org/abs/2309.01606) to the main conference and [one](https://arxiv.org/abs/2401.10352) to findings.
+* [2023-12] We are orgainzing the [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at ACL 2024.
+* [2023-12] [One paper](https://arxiv.org/abs/2401.01667) was accepted by IEEE ICASSP 2024.
+* [2023-10] Excited to be selected as DAAD AInet fellow for the Postdoc-NeT-AI 11/2023 Networking Week on Human-centered AI.
+* [2023-10] [One paper](https://arxiv.org/abs/2310.17353) was accepted by Transactions of the Association for Computational Linguistics (TACL).
 * [2023-08] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by Danish newspaper [Børsen](https://borsen.dk/nyheder/ai/populaer-chatbot-promoverer-amerikanske-vaerdier-og-normer).
 * [2023-07] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by several Danish media, including [Politiken](https://politiken.dk/debat/klummer/jarlner/art9429359/Samtalerobot-er-et-redskab-for-amerikansk-kulturimperialisme), [Børsen](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [Danish TV2](https://www.tv2kosmopol.dk/nyhedsarkiv?date=2023-07-10&clip=634dda2b-8303-4527-aeff-a96418116135), [Ekstra Bladet](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [University of Copenhagen](https://di.ku.dk/english/news/2023/chatgpt-promotes-american-norms-and-values/)!
-* [2023-05] One paper with Xiaomi [Pay More Attention to Relation Exploration for Knowledge Base Question Answering](https://arxiv.org/pdf/2305.02118.pdf) was accepted by Findings of ACL 2023.
-* [2023-03] Three papers were accepted by [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at EACL 2023.
 * ...
 
 
 Talk
 ------
+* [2024-03] Cultural Considerations in Large Language Models, Max Planck Institute for Human Development
 * [2024-02] Cultural Considerations in Dialogue Systems, University of Marburg. [[Slides](/files/2024_Marburg.pdf)]
 * [2023-10] Cultural Adaptation of Large Language Models. DIKU Bits, University of Copenhagen. [[Abstract](https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/)] [[Slides](/files/2023_DIKU_Bits.pdf)]
 * ...
