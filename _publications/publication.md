@@ -30,6 +30,16 @@ author_profile: true
 <h1>2024</h1>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
+<a href="https://arxiv.org/abs/2309.01606/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Exploring Visual Culture Awareness in GPT-4V: A Comprehensive Probing</font></a>
+<br>
+<font style="margin: 0;font-size: 14px;font-style: italic;">Arxiv<br></font>
+<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Yong Cao, Wenyan Li, Jiaang Li, Yifei Yuan, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>.
+</div>
+
+<p>
+
+
+<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="https://arxiv.org/abs/2309.01606/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking.</font></a>
 <br>
 <font style="margin: 0;font-size: 14px;font-style: italic;">EACL 2024<br></font>
@@ -41,7 +51,7 @@ author_profile: true
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
 <a href="" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys.</font></a>
 <br>
-<font style="margin: 0;font-size: 14px;font-style: italic;">IEEE ICASSP 2024<br></font>
+<font style="margin: 0;font-size: 14px;font-style: italic;">EACL 2024 Findings<br></font>
 <font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Min Chen</font>, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>. 
 </div>
 

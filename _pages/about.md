@@ -7,13 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 I'm Yong Cao, a Ph.D. candidate in Computer Science at [Huazhong University of Science and Technology](https://www.hust.edu.cn/), 
 where I work with Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) in the [EPIC lab](http://epic.hust.edu.cn). 
-My research focuses on Natural Language Processing, particularly dialog agents, text generation, and question answering based on knowledge graph.
+My research focuses on Natural Language Processing, particularly culture adaptation, dialogue agents, and text generation.
 
-Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, where I'm advised by Prof. [Daniel Hershcovich](https://danielhers.github.io/) in the [CoAStaL group](http://coastalcph.github.io/). 😄
-
+Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, where I'm advised by Prof. [Daniel Hershcovich](https://danielhers.github.io/) in the [CoAStaL group](http://coastalcph.github.io/). 
 
 News
 ------
