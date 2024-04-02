@@ -13,6 +13,9 @@ My research focuses on Natural Language Processing, particularly culture adaptat
 
 Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, where I'm advised by Prof. [Daniel Hershcovich](https://danielhers.github.io/) in the [CoAStaL group](http://coastalcph.github.io/). 
 
+<font color="red">My KU email (yongcao@di.ku.dk) unexpectedly expired. Therefore, please reach out to me via my Google email: yongcao2018@gmail.com. </font>
+
+
 News
 ------
 * [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality).
