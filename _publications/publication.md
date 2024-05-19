@@ -33,7 +33,7 @@ author_profile: true
 <a href="" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Rethinking the Effectiveness of Graph Classification Datasets in Benchmarks for Assessing GNNs</font></a>
 <br>
 <font style="margin: 0;font-size: 14px;font-style: italic;">IJCAI 2024<br></font>
-<font style="margin: 0;font-size: 14px;">Zhengdao Li, <b>Yong Cao</b>, Yong Cao, Kefan Shuai, Yiming Miao, Kai Hwang</font>.
+<font style="margin: 0;font-size: 14px;">Zhengdao Li, <b>Yong Cao</b>, Kefan Shuai, Yiming Miao, Kai Hwang</font>.
 </div>
 
 <p>
