@@ -30,10 +30,19 @@ author_profile: true
 <h1>2024</h1>
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
-<a href="https://arxiv.org/abs/2309.01606/" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Exploring Visual Culture Awareness in GPT-4V: A Comprehensive Probing</font></a>
+<a href="" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Rethinking the Effectiveness of Graph Classification Datasets in Benchmarks for Assessing GNNs</font></a>
+<br>
+<font style="margin: 0;font-size: 14px;font-style: italic;">IJCAI 2024<br></font>
+<font style="margin: 0;font-size: 14px;">Zhengdao Li, <b>Yong Cao</b>, Yong Cao, Kefan Shuai, Yiming Miao, Kai Hwang</font>.
+</div>
+
+<p>
+
+<div style="border-left: 6px solid #41ba83; padding-left: 15px;">
+<a href="" style="text-decoration: none;"><font style="margin: 0;font-weight: bold;font-style: normal;color: black;font-size: 16px;">Exploring Visual Culture Awareness in GPT-4V: A Comprehensive Probing</font></a>
 <br>
 <font style="margin: 0;font-size: 14px;font-style: italic;">Arxiv<br></font>
-<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Yong Cao, Wenyan Li, Jiaang Li, Yifei Yuan, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>.
+<font style="margin: 0;font-size: 14px;"><b>Yong Cao</b>, Wenyan Li, Jiaang Li, Yifei Yuan, <font style="font-weight:bold;color:#41ba83;font-size: 14px;font-style: italic;"> Daniel Hershcovich</font></font>.
 </div>
 
 <p>

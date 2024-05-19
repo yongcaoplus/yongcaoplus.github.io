@@ -18,6 +18,7 @@ Since 2022, I've been a visiting Ph.D. student at the University of Copenhagen, 
 
 News
 ------
+* [2024-04] [One paper]() was accepted by IJCAI 2024.
 * [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality).
 * [2024-02] Give a talk at [Philipps-University Marburg](https://www.uni-marburg.de/en). 
 * [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at Philipps-University Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
