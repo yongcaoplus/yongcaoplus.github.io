@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm Yong Cao, currently postdoc at University of Tübingen, supervised by Andreas Geiger. I obtained my Ph.D. degreee at [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024, supervised by Min Chen. I was also a visiting Ph.D. student at the University of Copenhagen from Oct 2022 to May 2024, supervised by [Daniel Hershcovich](https://danielhers.github.io/). I obtained my bachelor’s degree at Sichuan Univeristy in 2018. 
+I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Group (AVG)](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/), [University of Tübingen](https://uni-tuebingen.de/en/), supervised by [Andreas Geiger](https://www.cvlibs.net/). I obtained my Ph.D. degreee at [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024 under the supervision of [Min Chen](https://people.ece.ubc.ca/~minchen/). From October 2022 to May 2024, I was a visiting Ph.D. student at the University of Copenhagen, supervised by [Daniel Hershcovich](https://danielhers.github.io/). I earned my bachelor’s degree from Sichuan University in 2018. 
 
-Currently, my research focuses on scientific document analysis, including multimodal document understanding, summarization, impact prediction, and scientific document generation. Additionally, I am also interested in cultural adaptation in large language models, particularly in areas such as cross-cultural generation and social value alignment.
+My research focuses on scientific document analysis, including multimodal document understanding, summarization, impact prediction, and scientific document generation. Additionally, I am also interested in cultural adaptation in large language models, particularly in areas such as cross-cultural generation and social value alignment.
 
 <font color="red">My KU email (<u>yongcao@di.ku.dk</u>) and HUST email (<u>yongcao_epic@hust.edu.cn</u>) unexpectedly expired. Therefore, please reach out to me via my Google email: <u>yongcao2018@gmail.com</u>. </font>
 
