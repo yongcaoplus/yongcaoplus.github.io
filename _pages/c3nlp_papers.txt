@@ -1,0 +1,112 @@
+1
+Examining the Dialect Robustness of Language Models for Conversation Understanding
+Dipankar Srirag, Aditya Joshi
+
+3
+CDEval: A Benchmark for Measuring the Cultural Dimensions of Large Language Models
+Yuhang Wang, Yanxu Zhu, Chao Kong, Shuyu Wei, Xiaoyuan Yi, Xing Xie, Jitao Sang
+
+5
+"Conformity
+ Confabulation  and Impersonation: Persona Inconstancy in Multi-Agent LLM Collaboration", Baltaji baltaji@illinois.edu, Hemmatian babak2@illinois.edu, Varshney varshney@illinois.edu
+
+6
+Synchronizing Approach in Designing Annotation Guidelines for Multilingual Datasets: A COVID-19 Case Study Using English and Japanese Tweets
+Kiki Ferawati, Wan Jou She, Shoko Wakamiya, Eiji Aramaki
+
+7
+CULTURE-GEN: Natural Language Prompts Reveal Uneven Country Presence in Language Models
+Huihan Li, Liwei Jiang, Jena Hwang, Hyunwoo Kim, Sebastin Santy, Taylor Sorensen, Bill Yuchen Lin, Nouha Dziri, Xiang Ren, Yejin Choi
+
+8
+CRAFT: Extracting and Tuning Cultural Instructions from the Wild
+Bin Wang, Geyu Lin, Zhengyuan Liu, Chengwei Wei, Nancy Chen
+
+9
+Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?
+Yuu Jinnai
+
+10
+$\mathbf{K^2\ EVAL}$: Harnessing the Evaluation of Linguistic Fluency and Ethnolinguistic Knowledge in Korean
+Guijin Son, Hyunwoo Ko, Hoyoung Lee, Seunghyeok Hong, Yewon Kim, Jungwoo Kim
+
+11
+$NormAd$: A Benchmark for Measuring the Cultural Adaptability of Large Language Models
+Abhinav Rao, Akhila Yerukola, Vishwa Shah, Katharina Reinecke, Maarten Sap
+
+12
+Do Multilingual Large Language Models Mitigate Stereotype Bias?
+Shangrui Nie, Michael Fromm, Charles Welch, Rebekka Görge, Akbar Karimi, Joan Plepi, Nazia Mowmita, Nicolas Flores-Herr, Mehdi Ali, Lucie Flek
+
+14
+Sociocultural Considerations in Monitoring Anti-LGBTQ+ Content on Social Media
+Sidney Wong
+
+17
+Are Generative Language Models Multicultural? A Study on Hausa Culture and Emotions using ChatGPT
+Ibrahim Ahmad, Shiran Dudy, Resmi Ramachandranpillai, Kenneth Church
+
+19
+Assessing LLMs' Ability to Navigate Cultural Knowledge Conflicts
+Guijin Son, Hanwool Lee, Seonkyu Lim, Suzie Oh, Eunji Kim, Minchang Kim, Sangyub Lee, Seunghyeok Hong, Mingyou Sung, Dasol Choi, linda123@cau.ac.kr linda123@cau.ac.kr, Jeehyun Lee, Ilgyun Jeong, SangWon Baek
+
+20
+Computational Language Documentation: Designing a Modular Annotation and Data Management Tool for Cross-cultural Applicability
+Alexandra O'Neil, Daniel Swanson, Shobhana Chelliah
+
+21
+RSA+C3: Cross-Cultural Communication using RSA in Codenames
+Isadora White, Sashrika Pandey, Michelle Pan
+
+22
+BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages
+Junho Myung, Nayeon Lee, Yi Zhou, Jiho Jin, Rifki Putri, Eunsu Kim, Dimosthenis Antypas, Hsuvas Borkakoty, Hwaran Lee, Victor Gutierrez Basulto, Mohammad Taher Pilehvar, Carla Perez-Almendros, Nedjma Ousidhoum, Jose Camacho-Collados, Alice Oh
+
+24
+From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets
+Manuel Tonneau, Diyi Liu, Samuel Fraiberger, Ralph Schroeder, Scott Hale, Paul Röttger
+
+27
+Bridging Background Knowledge Gaps in Translation with Automatic Explicitation
+HyoJung Han, Jordan Boyd-Graber, Marine Carpuat
+
+28
+CIC: A Framework for Culturally-Aware Image Captioning
+Youngsik Yun, Jihie Kim
+
+29
+DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures
+Agrima Seth, Sanchit Ahuja, Kalika Bali, Sunayana Sitaram
+
+30
+KoBBQ: Korean Bias Benchmark for Question Answering
+Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Hwaran Lee
+
+31
+Perceptions of Language Technology Failures from South Asian English Speakers
+Faye Holt, William Held, Diyi Yang
+
+32
+CreoleVal: Multilingual Multitask Benchmarks for Creoles
+Heather Lent, Kushal Tatariya, Raj Dabre, Yiyi Chen, Marcell Fekete, Esther Ploeger, Li Zhou, Ruth-Ann Armstrong, ameijansantos@zscmst.edu.ph ameijansantos@zscmst.edu.ph, catriona.malau@newcastle.edu.au catriona.malau@newcastle.edu.au, hheje20@student.aau.dk hheje20@student.aau.dk, Ernests Lavrinovičs, Diptesh Kanojia, belonyp1@gmail.com belonyp1@gmail.com, Marcel Bollmann, Loïc Grobol, Miryam De Lhoneux, Daniel Hershcovich, Michel DeGraff, Anders Søgaard, Johannes Bjerva
+
+ARR-1
+A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism
+Brian Thompson, Mehak Dhaliwal, Peter Frisch, Tobias Domhan, Marcello Federico
+
+ARR-2
+Does Mapo Tofu Contain Coffee? Probing LLMs for Food-related Cultural Knowledge
+Li Zhou, Taelin Karidi, Nicolas Garneau, Yong Cao, Wanlong Liu, Wenyu Chen, Daniel Hershcovich
+
+ARR-3
+Towards Measuring and Modeling “Culture" in LLMs: A Survey
+Muhammad Adilazuarda, Sagnik Mukherjee, Pradhyumna Lavania, Siddhant Singh, Ashutosh Dwivedi, Alham Aji, Jacki O'Neill, Ashutosh Modi, Monojit Choudhury
+
+ARR-5
+Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese
+Rifki Putri, Faiz Haznitrama, Dea Adhista, Alice Oh
+
+ARR-6
+D3CODE: Disentangling Disagreements in Data across Cultures on Offensiveness Detection and Evaluation
+Aida Mostafazadeh Davani, Mark Diaz, Dylan Baker, Vinodkumar Prabhakaran
+
