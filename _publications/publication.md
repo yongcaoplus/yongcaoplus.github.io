@@ -19,7 +19,7 @@ Zhengdao Li, <b>Yong Cao</b>, Kefan Shuai, Yiming Miao, Kai Hwang. *Rethinking t
 
 
 <b>Yong Cao</b>, Ruixue Ding, Boli Chen, Xianzhi Li, Min Chen, Daniel Hershcovich, Pengjun Xie, Fei Huang. *Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking*. In Proceedings of the 18th Conference of the European Chapter
-of the Association for Computational Linguistics (EACL '2024).&nbsp;&nbsp;[Paper](https://arxiv.org/abs/2309.01606)&nbsp;&nbsp;[Code]()&nbsp;&nbsp;[Slides](_files/2024_EACL_Geo_Encoder.pdf)
+of the Association for Computational Linguistics (EACL '2024).&nbsp;&nbsp;[[Paper]](https://arxiv.org/abs/2309.01606)&nbsp;&nbsp;[[Code]]()&nbsp;&nbsp;[[Slides]](_files/2024_EACL_Geo_Encoder.pdf)
 
 <!-- 
 
