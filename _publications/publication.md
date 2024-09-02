@@ -15,11 +15,11 @@ author_profile: true
 <h1>2024</h1>
 
 
-Zhengdao Li, <b>Yong Cao</b>, Kefan Shuai, Yiming Miao, Kai Hwang. *Rethinking the Effectiveness of Graph Classification Datasets in Benchmarks for Assessing GNNs*. In Proceedings of 2024 International Joint Conferences on Artificial Intelligence (IJCAI '2024). [[Paper]](https://arxiv.org/pdf/2407.04999) &nbsp;&nbsp; [[Code]](https://github.com/ICLab4DL/GNNBenchEffectiveness)&nbsp;&nbsp; [[Poster]](). 
+Zhengdao Li, <b>Yong Cao</b>, Kefan Shuai, Yiming Miao, Kai Hwang. *Rethinking the Effectiveness of Graph Classification Datasets in Benchmarks for Assessing GNNs*. In Proceedings of 2024 International Joint Conferences on Artificial Intelligence (IJCAI '2024).&nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2407.04999)&nbsp;&nbsp;[[Code]](https://github.com/ICLab4DL/GNNBenchEffectiveness)&nbsp;&nbsp;[[Poster]]()
 
 
 <b>Yong Cao</b>, Ruixue Ding, Boli Chen, Xianzhi Li, Min Chen, Daniel Hershcovich, Pengjun Xie, Fei Huang. *Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking*. In Proceedings of the 18th Conference of the European Chapter
-of the Association for Computational Linguistics (EACL '2024). [Paper](https://arxiv.org/abs/2309.01606)&nbsp;&nbsp; [Code]()&nbsp;&nbsp; [Slides](_files/2024_EACL_Geo_Encoder.pdf). 
+of the Association for Computational Linguistics (EACL '2024).&nbsp;&nbsp;[Paper](https://arxiv.org/abs/2309.01606)&nbsp;&nbsp;[Code]()&nbsp;&nbsp;[Slides](_files/2024_EACL_Geo_Encoder.pdf)
 
 <!-- 
 
