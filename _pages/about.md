@@ -11,10 +11,10 @@ I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Grou
 
 My research focuses on scientific document analysis, including multimodal document understanding, summarization, impact prediction, and scientific document generation. Additionally, I am also interested in cultural adaptation in large language models, particularly in areas such as cross-cultural generation and social value alignment.
 
-<font color="red">My KU email (<u>yongcao@di.ku.dk</u>) and HUST email (<u>yongcao_epic@hust.edu.cn</u>) unexpectedly expired. Therefore, please reach out to me via my Google email: <u>yongcao2018@gmail.com</u>. </font>
-
 News
 ------
+* [2024-12] We are orgainzing the third Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with NAACL 2025!
+* [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485).
 * [2024-09] I will join the [AVG group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/team/) at the University of Tübingen as a Postdoc.
 * [2024-06] I finished my Ph.D. defense at Huazhong University of Science and Technology. Thanks my Supervisor Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/).
 * [2024-04] [One paper](https://arxiv.org/abs/2407.04999) was accepted by IJCAI 2024.
