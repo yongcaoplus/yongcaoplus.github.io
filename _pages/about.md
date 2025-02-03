@@ -13,6 +13,8 @@ My research focuses on scientific document analysis, including multimodal docume
 
 News
 ------
+* [2025-02] I am serving as Area Chair for ARR 2025 Feb Cycle.
+* [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main.
 * [2024-12] We are orgainzing the third Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with NAACL 2025!
 * [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485).
 * [2024-09] I will join the [AVG group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/team/) at the University of Tübingen as a Postdoc.
@@ -20,14 +22,14 @@ News
 * [2024-04] [One paper](https://arxiv.org/abs/2407.04999) was accepted by IJCAI 2024.
 * [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality).
 * [2024-02] Give a talk at [Philipps-University Marburg](https://www.uni-marburg.de/en). 
-* [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at Philipps-University Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
+<!-- * [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at Philipps-University Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
 * [2024-01] Two papers were accepted by EACL 2024, [one](https://arxiv.org/abs/2309.01606) to the main conference and [one](https://arxiv.org/abs/2401.10352) to findings.
 * [2023-12] We are orgainzing the [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at ACL 2024.
 * [2023-12] [One paper](https://arxiv.org/abs/2401.01667) was accepted by IEEE ICASSP 2024.
 * [2023-10] Excited to be selected as DAAD AInet fellow for the Postdoc-NeT-AI 11/2023 Networking Week on Human-centered AI.
 * [2023-10] [One paper](https://arxiv.org/abs/2310.17353) was accepted by Transactions of the Association for Computational Linguistics (TACL).
 * [2023-08] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by Danish newspaper [Børsen](https://borsen.dk/nyheder/ai/populaer-chatbot-promoverer-amerikanske-vaerdier-og-normer).
-* [2023-07] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by several Danish media, including [Politiken](https://politiken.dk/debat/klummer/jarlner/art9429359/Samtalerobot-er-et-redskab-for-amerikansk-kulturimperialisme), [Børsen](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [Danish TV2](https://www.tv2kosmopol.dk/nyhedsarkiv?date=2023-07-10&clip=634dda2b-8303-4527-aeff-a96418116135), [Ekstra Bladet](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [University of Copenhagen](https://di.ku.dk/english/news/2023/chatgpt-promotes-american-norms-and-values/)!
+* [2023-07] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by several Danish media, including [Politiken](https://politiken.dk/debat/klummer/jarlner/art9429359/Samtalerobot-er-et-redskab-for-amerikansk-kulturimperialisme), [Børsen](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [Danish TV2](https://www.tv2kosmopol.dk/nyhedsarkiv?date=2023-07-10&clip=634dda2b-8303-4527-aeff-a96418116135), [Ekstra Bladet](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [University of Copenhagen](https://di.ku.dk/english/news/2023/chatgpt-promotes-american-norms-and-values/)! -->
 * ...
 
 
