@@ -13,7 +13,7 @@ My research focuses on scientific document analysis, including multimodal docume
 
 News
 ------
-* [2025-02] I am serving as Area Chair for ARR 2025 Feb Cycle.
+* [2025-02] I am serving as Area Chair for ACL 2025.
 * [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main.
 * [2024-12] We are orgainzing the third Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with NAACL 2025!
 * [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485).
