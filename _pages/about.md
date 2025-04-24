@@ -7,21 +7,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Group (AVG)](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/), [University of Tübingen](https://uni-tuebingen.de/en/), supervised by [Andreas Geiger](https://www.cvlibs.net/). I obtained my Ph.D. degreee at [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024 under the supervision of [Min Chen](https://people.ece.ubc.ca/~minchen/). From October 2022 to May 2024, I was a visiting Ph.D. student at the University of Copenhagen, supervised by [Daniel Hershcovich](https://danielhers.github.io/). I earned my bachelor’s degree from Sichuan University in 2018. 
+I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Group (AVG)](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/), [University of Tübingen](https://uni-tuebingen.de/en/), supervised by Prof. [Andreas Geiger](https://www.cvlibs.net/). I obtained my Ph.D. degreee at [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024 under the supervision of Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). From October 2022 to May 2024, I was a visiting Ph.D. student at the University of Copenhagen, supervised by [Daniel Hershcovich](https://danielhers.github.io/). I earned my bachelor’s degree from Sichuan University in 2018. 
 
 My research focuses on scientific document analysis, including multimodal document understanding, summarization, impact prediction, and scientific document generation. Additionally, I am also interested in cultural adaptation in large language models, particularly in areas such as cross-cultural generation and social value alignment.
 
 News
 ------
+* [2025-03] A new survey paper, [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/abs/2502.05151), is now available on arXiv.
+* [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management.
 * [2025-02] I am serving as Area Chair for ACL 2025.
 * [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main.
 * [2024-12] We are orgainzing the third Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with NAACL 2025!
 * [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485).
 * [2024-09] I will join the [AVG group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/team/) at the University of Tübingen as a Postdoc.
 * [2024-06] I finished my Ph.D. defense at Huazhong University of Science and Technology. Thanks my Supervisor Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/).
-* [2024-04] [One paper](https://arxiv.org/abs/2407.04999) was accepted by IJCAI 2024.
-* [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality).
-* [2024-02] Give a talk at [Philipps-University Marburg](https://www.uni-marburg.de/en). 
+<!-- * [2024-04] [One paper](https://arxiv.org/abs/2407.04999) was accepted by IJCAI 2024. -->
+<!-- * [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality). -->
+<!-- * [2024-02] Give a talk at [Philipps-University Marburg](https://www.uni-marburg.de/en).  -->
 * ...
 
 
