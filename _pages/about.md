@@ -13,7 +13,7 @@ My research focuses on scientific document analysis, including multimodal docume
 
 News
 ------
-* [2025-07] Thrilled to join [IT:U Summer School](https://it-u.at/en/itu-summer-school-2025-on-nlp/) to dive a tutorial on AI4Science. 
+* [2025-07] Excited to deliver a tutorial on AI4Science at the upcoming [IT:U Summer School](https://it-u.at/en/itu-summer-school-2025-on-nlp/). 
 * [2025-06] I am serving as Area Chair for EMNLP 2025.
 * [2025-06] Happy to join [WDMD 2025](https://wdmd-main.github.io/#/program) to discuss the reliability of LLMs.
 * [2025-05] One paper accepted to [ACL 2025](https://arxiv.org/abs/2407.03884) main and [One paper](https://arxiv.org/abs/2504.08385) accepted to ACL 2025 demo.
