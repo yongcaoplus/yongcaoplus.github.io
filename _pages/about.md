@@ -13,6 +13,7 @@ My research focuses on scientific document analysis, including multimodal docume
 
 News
 ------
+* [2025-06] One paper accepted to [ACL 2025](https://arxiv.org/abs/2407.03884) main and [One paper](https://arxiv.org/abs/2504.08385) accepted to ACL 2025 demo.
 * [2025-03] A new survey paper, [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/abs/2502.05151), is now available on arXiv.
 * [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management.
 * [2025-02] I am serving as Area Chair for ACL 2025.
