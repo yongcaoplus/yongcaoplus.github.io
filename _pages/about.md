@@ -42,6 +42,7 @@ News
 
 Talk
 ------
+* [2025-07] AI-Supported Literature Search, IT:U Summer School Tutorial. [[Slides](/files/[2025.7.25]ITU_Summer_School_Yong.pdf)]
 * [2024-09] Cultural Considerations in NLP, Xiaomi. [[Slides](/files/2024-09-27-Xiaomi-Meeting.pdf)]
 * [2024-03] Cultural Considerations in Large Language Models, Max Planck Institute for Human Development.
 * [2024-02] Cultural Considerations in Dialogue Systems, Philipps-University Marburg. [[Slides](/files/2024_Marburg.pdf)]
