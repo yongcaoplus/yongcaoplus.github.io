@@ -11,7 +11,7 @@ I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Grou
 
 My current research focus on <b>AI for Science</b>, with a focus on multimodal document understanding, summarization, scientific impact prediction, and scientific text generation. I am also deeply interested in <b>cultural adaptation</b> in large language models, particularly in the areas of cross-cultural text generation and social value alignment.
 
-<div style="margin-top:15px; padding:15px; background: linear-gradient(135deg, #e0f7fa, #e3f2fd); color:#0d47a1; border-radius:12px; font-weight:500;">
+<div style="margin-top:15px; padding:15px; background: linear-gradient(135deg,rgba(230, 240, 241, 0.35),rgb(0, 0, 0)); color:#0d47a1; border-radius:12px; font-weight:500;">
   Feel free to reach out for any collaboration and discussion on related projects. 
   If you are at the <b>University of Tübingen</b>, I am also open to supervising bachelor’s and master’s theses.
 </div>
