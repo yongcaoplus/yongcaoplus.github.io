@@ -13,6 +13,7 @@ My research focuses on scientific document analysis, including multimodal docume
 
 News
 ------
+* [2025-08] One paper [Beyond Demographics: Enhancing Cultural Value Survey Simulation \\with Multi-Stage Personality-Driven Cognitive Reasoning]() was accepted to EMNLP main and One paper [MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models](https://arxiv.org/pdf/2508.13148) is now available on arXiv.
 * [2025-07] Excited to deliver a tutorial on AI4Science at the upcoming [IT:U Summer School](https://it-u.at/en/itu-summer-school-2025-on-nlp/). 
 * [2025-06] I am serving as Area Chair for EMNLP 2025.
 * [2025-06] Happy to join [WDMD 2025](https://wdmd-main.github.io/#/program) to discuss the reliability of LLMs.
@@ -43,6 +44,7 @@ News
 Talk
 ------
 * [2025-07] AI-Supported Literature Search, IT:U Summer School Tutorial. [[Slides](/files/[2025.7.25]ITU_Summer_School_Yong.pdf)]
+* [2025-06] Cultural Reliability of LLMs: Can AI Truly Reflect Global Perspectives? WDMD Workshop @ DSN 2025.
 * [2024-09] Cultural Considerations in NLP, Xiaomi. [[Slides](/files/2024-09-27-Xiaomi-Meeting.pdf)]
 * [2024-03] Cultural Considerations in Large Language Models, Max Planck Institute for Human Development.
 * [2024-02] Cultural Considerations in Dialogue Systems, Philipps-University Marburg. [[Slides](/files/2024_Marburg.pdf)]
