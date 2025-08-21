@@ -12,6 +12,11 @@ author_profile: true
   }
 </style>
 
+<h1>2025<h1>
+
+Steffen Eger, <b>Yong Cao</b>, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller. *Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation*. Arxiv. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.05151) [[Code]](https://github.com/NL2G/TransformingScienceLLMs)
+
+
 <h1>2024</h1>
 
 Antonia Karamolegkou, Phillip Rust, <b>Yong Cao</b>, Ruixiang Cui, Anders Søgaard, Daniel Hershcovich. *Vision-Language Models under Cultural and Inclusive Considerations*. HuCLLM workshop @ ACL 2024.&nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2407.06177)

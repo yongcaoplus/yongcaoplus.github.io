@@ -7,9 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Group (AVG)](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/), [University of Tübingen](https://uni-tuebingen.de/en/), supervised by Prof. [Andreas Geiger](https://www.cvlibs.net/). I obtained my Ph.D. degreee at [Huazhong University of Science and Technology](https://www.hust.edu.cn/) in 2024 under the supervision of Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). From October 2022 to May 2024, I was a visiting Ph.D. student at the University of Copenhagen, supervised by [Daniel Hershcovich](https://danielhers.github.io/). I earned my bachelor’s degree from Sichuan University in 2018. 
+I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Group (AVG)](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/), [University of Tübingen](https://uni-tuebingen.de/en/), supervised by Prof. [Andreas Geiger](https://www.cvlibs.net/). I obtained my Ph.D. degreee at Huazhong University of Science and Technology in 2024 under the supervision of Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). From October 2022 to May 2024, I was a visiting Ph.D. student at the University of Copenhagen, supervised by [Daniel Hershcovich](https://danielhers.github.io/). I obtained my bachelor’s degree from Sichuan University in 2018. 
 
-My research focuses on scientific document analysis, including multimodal document understanding, summarization, impact prediction, and scientific document generation. Additionally, I am also interested in cultural adaptation in large language models, particularly in areas such as cross-cultural generation and social value alignment.
+My current research focus on <b>AI for Science</b>, with a focus on multimodal document understanding, summarization, scientific impact prediction, and scientific text generation. I am also deeply interested in <b>cultural adaptation</b> in large language models, particularly in the areas of cross-cultural text generation and social value alignment.
+
+<div style="margin-top:15px; padding:15px; background: linear-gradient(135deg, #e0f7fa, #e3f2fd); color:#0d47a1; border-radius:12px; font-weight:500;">
+  Feel free to reach out for any collaboration and discussion on related projects. 
+  If you are at the <b>University of Tübingen</b>, I am also open to supervising bachelor’s and master’s theses.
+</div>
 
 News
 ------
