@@ -12,21 +12,20 @@ author_profile: true
   }
 </style>
 
-<h1>2025<h1>
+<h1>2025</h1>
 
-Haijiang Liu, Qiyuan Li, Chao Gao, <b>Yong Cao</b>, Xiangyu Xu, XUN WU, Daniel Hershcovich, Jinguang Gu. *MARK: Multi-stAge Reasoning frameworK for Personality-Driven Survey Simulation in Large Language Models*. EMNLP 2025 Main. [[paper]]()
+Haijiang Liu, Qiyuan Li, Chao Gao, <b>Yong Cao</b>, Xiangyu Xu, Xun Wu, Daniel Hershcovich, Jinguang Gu. *MARK: Multi-stage Reasoning Framework for Personality-Driven Survey Simulation in Large Language Models*. EMNLP 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org)
 
-Haoyu He, Katrin Renz, <b>Yong Cao</b>, Andreas Geiger. *MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models* ArXiv. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2508.13148) [[Code]](https://github.com/autonomousvision/mdpo)
+Haoyu He, Katrin Renz, <b>Yong Cao</b>, Andreas Geiger. *MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models*. arXiv. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2508.13148) [[Code]](https://github.com/autonomousvision/mdpo)
 
 Haijiang Liu, <b>Yong Cao</b>, Xun Wu, Chen Qiu, Jinguang Gu, Maofu Liu, Daniel Hershcovich. *Towards realistic evaluation of cultural value alignment in large language models: Diversity enhancement for survey response simulation*. Information Processing & Management. &nbsp;&nbsp;[[Paper]](https://www.sciencedirect.com/science/article/pii/S030645732500041X) [[Code]](https://github.com/alexc-l/DEF-Survey-Sim)
 
 Markus Flicke, Glenn Angrabeit, Madhav Iyengar, Vitalii Protsenko, Illia Shakun, Jovan Cicvaric, Bora Kargi, Haoyu He, Lukas Schuler, Lewin Scholz, Kavyanjali Agnihotri, <b>Yong Cao</b>, Andreas Geiger. *Scholar Inbox: Personalized Paper Recommendations for Scientists*. ACL 2025 Demo. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2504.08385) [[Code]](https://github.com/avg-dev/scholar_inbox_datasets)
 
+Steffen Eger, <b>Yong Cao</b>, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller. *Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation*. arXiv. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.05151) [[Code]](https://github.com/NL2G/TransformingScienceLLMs)
 
-Steffen Eger, <b>Yong Cao</b>, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller. *Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation*. Arxiv. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.05151) [[Code]](https://github.com/NL2G/TransformingScienceLLMs)
+<!-- <b>Yong Cao</b>, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Röttger, Daniel Hershcovich. *Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations*. NAACL 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.07068) [[Code]](https://github.com/yongcaoplus/SimLLMCultureDist) -->
 
-<!-- <b>Yong Cao</b>, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Röttger, Daniel Hershcovich. *Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations*. NAACL 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.07068) [[Code]](https://github.com/yongcaoplus/SimLLMCultureDist)
- -->
 
 
 <h1>2024</h1>
