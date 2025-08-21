@@ -14,7 +14,7 @@ author_profile: true
 
 <h1>2025</h1>
 
-<b>Yong Cao</b>, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Röttger, Daniel Hershcovich. *Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations*. NAACL 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.07068) [[Code]](https://github.com/yongcaoplus/SimLLMCultureDist)
+Yong Cao, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Röttger, Daniel Hershcovich. *Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations*. NAACL 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.07068) [[Code]](https://github.com/yongcaoplus/SimLLMCultureDist)
 
 Haijiang Liu, Qiyuan Li, Chao Gao, <b>Yong Cao</b>, Xiangyu Xu, Xun Wu, Daniel Hershcovich, Jinguang Gu. *MARK: Multi-stage Reasoning Framework for Personality-Driven Survey Simulation in Large Language Models*. EMNLP 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org)
 
