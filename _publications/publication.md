@@ -25,8 +25,8 @@ Markus Flicke, Glenn Angrabeit, Madhav Iyengar, Vitalii Protsenko, Illia Shakun,
 
 Steffen Eger, <b>Yong Cao</b>, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller. *Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation*. Arxiv. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.05151) [[Code]](https://github.com/NL2G/TransformingScienceLLMs)
 
-<b>Yong Cao</b>, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Röttger, Daniel Hershcovich. *Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations*. NAACL 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.07068) [[Code]](https://github.com/yongcaoplus/SimLLMCultureDist)
-
+<!-- <b>Yong Cao</b>, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Röttger, Daniel Hershcovich. *Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations*. NAACL 2025 Main. &nbsp;&nbsp;[[Paper]](https://arxiv.org/pdf/2502.07068) [[Code]](https://github.com/yongcaoplus/SimLLMCultureDist)
+ -->
 
 
 <h1>2024</h1>
