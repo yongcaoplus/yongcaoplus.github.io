@@ -18,11 +18,11 @@ Feel free to reach out for any collaboration and discussion on related projects.
 
 News
 ------
-* [2025-08] One paper [Beyond Demographics: Enhancing Cultural Value Survey Simulation \\with Multi-Stage Personality-Driven Cognitive Reasoning]() was accepted to EMNLP main and One paper [MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models](https://arxiv.org/pdf/2508.13148) is now available on arXiv.
+* [2025-08] One paper [Beyond Demographics: Enhancing Cultural Value Survey Simulation \\with Multi-Stage Personality-Driven Cognitive Reasoning]() is accepted to EMNLP main and One paper [MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models](https://arxiv.org/pdf/2508.13148) is now available on arXiv.
 * [2025-07] Excited to deliver a tutorial on AI4Science at the upcoming [IT:U Summer School](https://it-u.at/en/itu-summer-school-2025-on-nlp/). 
 * [2025-06] I am serving as Area Chair for EMNLP 2025.
 * [2025-06] Happy to join [WDMD 2025](https://wdmd-main.github.io/#/program) to discuss the reliability of LLMs.
-* [2025-05] [One paper](https://arxiv.org/pdf/2407.03884) accepted to ACL 2025 main and [One paper](https://arxiv.org/pdf/2504.08385) accepted to ACL 2025 demo.
+* [2025-05] [One paper](https://arxiv.org/pdf/2407.03884) is accepted to ACL 2025 main and [One paper](https://arxiv.org/pdf/2504.08385) is accepted to ACL 2025 demo.
 * [2025-03] A new survey paper, [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/abs/2502.05151), is now available on arXiv.
 * [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management.
 * [2025-02] I am serving as Area Chair for ACL 2025.
