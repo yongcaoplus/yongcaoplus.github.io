@@ -82,6 +82,20 @@ Min Chen, <b>Yong Cao</b>, Rui Wang, Yong Li, Di Wu, Zhongchun Liu. *DeepFocus: 
 Jun Yang, Jiayi Lu, Yiming Miao, Lu Wang, Yiting Zhao, <b>Yong Cao</b>. *A novel approach for detecting and tracking moving objects in video surveillance*. In Proceedings of the 2018 IEEE International Conference on Multimedia and Expo (ICME `2018).&nbsp;&nbsp;[[Paper]](https://ieeexplore.ieee.org/abstract/document/8486607)
 
 
+
+<div id="footer">
+	<div id="footer-text"></div>
+</div>
+	<p><center>
+      	<div id="clustrmaps-widget" style="width:10%">
+      		<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=_XKoiJPBZoFE_QMRPyUmy88m5QqXNIWNjIt3IqN_41M"></script>
+      		<noscript><a href='https://clustrmaps.com/site/xfn5'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=_XKoiJPBZoFE_QMRPyUmy88m5QqXNIWNjIt3IqN_41M'/></a></noscript>
+      		</div>
+      	<br>
+        &copy; Yong Cao
+	</center></p>
+	
+
 <!-- 
 
 <div style="border-left: 6px solid #41ba83; padding-left: 15px;">
