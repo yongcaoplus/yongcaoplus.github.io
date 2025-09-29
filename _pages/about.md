@@ -18,6 +18,7 @@ Feel free to reach out for any collaboration and discussion on related projects.
 
 News
 ------
+* [2025-10] We are orgainzing the fourth Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with ACL 2026! More details will coming soon.
 * [2025-08] One paper [Beyond Demographics: Enhancing Cultural Value Survey Simulation \\with Multi-Stage Personality-Driven Cognitive Reasoning]() is accepted to EMNLP main and One paper [MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models](https://arxiv.org/pdf/2508.13148) is now available on arXiv.
 * [2025-07] Excited to deliver a tutorial on AI4Science at the upcoming [IT:U Summer School](https://it-u.at/en/itu-summer-school-2025-on-nlp/). 
 * [2025-06] I am serving as Area Chair for EMNLP 2025.
@@ -27,7 +28,6 @@ News
 * [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management.
 * [2025-02] I am serving as Area Chair for ACL 2025.
 * [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main.
-* [2024-12] We are orgainzing the third Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with NAACL 2025!
 * [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485).
 * [2024-09] I joined the [AVG group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/team/) at the University of Tübingen as a Postdoc.
 <!-- * [2024-06] I finished my Ph.D. defense at Huazhong University of Science and Technology. Thanks my Supervisor Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). -->
