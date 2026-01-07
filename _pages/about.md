@@ -18,6 +18,7 @@ Feel free to reach out for any collaboration and discussion on related projects.
 
 News
 ------
+* [2026-01] One position paper [Embracing Open-Endedness](https://arxiv.org/abs/2510.13884) has beem accepted to [EACL 2026 main](https://2026.eacl.org/).
 * [2025-12] Our tutorial, “AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation,” has been accepted to [EACL 2026](https://2026.eacl.org/), collaborating with [Yufang Hou](https://yufanghou.github.io/), [Steffen Eger](https://www.utn.de/person/prof-dr-steffen-eger/), [Anne Lauscher](https://anne-lauscher.de/), [Wei Zhao](https://andyweizhao.github.io/). 
 * [2025-10] We are orgainzing the fourth Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with ACL 2026!
 * [2025-08] One paper [Beyond Demographics: Enhancing Cultural Value Survey Simulation \\with Multi-Stage Personality-Driven Cognitive Reasoning]() is accepted to EMNLP main and One paper [MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models](https://arxiv.org/pdf/2508.13148) is now available on arXiv.
