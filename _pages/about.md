@@ -18,6 +18,8 @@ Feel free to reach out for any collaboration and discussion on related projects.
 
 News
 ------
+* [2026-04] One paper [UniComp](https://arxiv.org/abs/2602.09130) has been accepted to [ACL 2026 Findings](https://2026.aclweb.org/).
+* [2026-02] One paper [FrankenMotion](https://arxiv.org/abs/2601.10909) has been accepted to [CVPR 2026](https://cvpr.thecvf.com/).
 * [2026-01] One position paper [Embracing Open-Endedness](https://arxiv.org/abs/2510.13884) has beem accepted to [EACL 2026 main](https://2026.eacl.org/).
 * [2025-12] Our tutorial [AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://ai4science-tutorial.github.io/) has been accepted to [EACL 2026](https://2026.eacl.org/), collaborating with [Yufang Hou](https://yufanghou.github.io/), [Steffen Eger](https://www.utn.de/person/prof-dr-steffen-eger/), [Anne Lauscher](https://anne-lauscher.de/), [Wei Zhao](https://andyweizhao.github.io/). 
 * [2025-10] We are orgainzing the fourth Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with ACL 2026!
@@ -27,11 +29,11 @@ News
 * [2025-06] Happy to join [WDMD 2025](https://wdmd-main.github.io/#/program) to discuss the reliability of LLMs.
 * [2025-05] [One paper](https://arxiv.org/pdf/2407.03884) is accepted to ACL 2025 main and [One paper](https://arxiv.org/pdf/2504.08385) is accepted to ACL 2025 demo.
 * [2025-03] A new survey paper, [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/abs/2502.05151), is now available on arXiv.
-* [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management.
-* [2025-02] I am serving as Area Chair for ACL 2025.
-* [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main.
-* [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485).
-* [2024-09] I joined the [AVG group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/team/) at the University of Tübingen as a Postdoc.
+<!-- * [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management. -->
+<!-- * [2025-02] I am serving as Area Chair for ACL 2025. -->
+<!-- * [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main. -->
+<!-- * [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485). -->
+<!-- * [2024-09] I joined the [AVG group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/team/) at the University of Tübingen as a Postdoc. -->
 <!-- * [2024-06] I finished my Ph.D. defense at Huazhong University of Science and Technology. Thanks my Supervisor Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). -->
 <!-- * [2024-04] [One paper](https://arxiv.org/abs/2407.04999) was accepted by IJCAI 2024. -->
 <!-- * [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality). -->
@@ -50,6 +52,7 @@ News
 
 Talk
 ------
+* [2026-03] AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation, EACL 2026 Tutorial. [Website](https://ai4science-tutorial.github.io/)
 * [2025-07] AI-Supported Literature Search, IT:U Summer School Tutorial. [[Slides](/files/[2025.7.25]ITU_Summer_School_Yong.pdf)]
 * [2025-06] Cultural Reliability of LLMs: Can AI Truly Reflect Global Perspectives? WDMD Workshop @ DSN 2025.
 * [2024-09] Cultural Considerations in NLP, Xiaomi. [[Slides](/files/2024-09-27-Xiaomi-Meeting.pdf)]
