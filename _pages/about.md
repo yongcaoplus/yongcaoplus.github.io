@@ -18,7 +18,7 @@ Feel free to reach out for any collaboration and discussion on related projects.
 
 News
 ------
-* [2026-04] One paper [UniComp](https://arxiv.org/abs/2602.09130) has been accepted to [ACL 2026 Findings](https://2026.aclweb.org/).
+<!-- * [2026-04] One paper [UniComp](https://arxiv.org/abs/2602.09130) has been accepted to [ACL 2026 Findings](https://2026.aclweb.org/). -->
 * [2026-02] One paper [FrankenMotion](https://arxiv.org/abs/2601.10909) has been accepted to [CVPR 2026](https://cvpr.thecvf.com/).
 * [2026-01] One position paper [Embracing Open-Endedness](https://arxiv.org/abs/2510.13884) has beem accepted to [EACL 2026 main](https://2026.eacl.org/).
 * [2025-12] Our tutorial [AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://ai4science-tutorial.github.io/) has been accepted to [EACL 2026](https://2026.eacl.org/), collaborating with [Yufang Hou](https://yufanghou.github.io/), [Steffen Eger](https://www.utn.de/person/prof-dr-steffen-eger/), [Anne Lauscher](https://anne-lauscher.de/), [Wei Zhao](https://andyweizhao.github.io/). 
