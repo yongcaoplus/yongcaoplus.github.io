@@ -18,7 +18,7 @@ Feel free to reach out for any collaboration and discussion on related projects.
 
 News
 ------
-* [2026-07] We are organizing the [AIASci workshop](https://aiasciworkshop.github.io/) @ [AIAS](https://www.aiasplus.org/) 2026. More information will be updated soon.
+* [2026-07] We are organizing the first [End-to-End Research Workflow, Methods, and Applications for AI-Assisted Science(AIASci) workshop](https://aiasciworkshop.github.io/) @ [AIAS](https://www.aiasplus.org/) 2026. More information will be updated soon.
 * [2026-06] Thrilled to receive the Distinguished Service Award at the C3NLP Workshop @ ACL 2026.
 * [2026-06] Two papers [NextMotionQA](https://arxiv.org/pdf/2606.04773) and [ChinaHeritaQA](https://arxiv.org/abs/2606.08959) are on Arxiv now.
 * [2026-05] Our survey paper [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/pdf/2502.05151?) is accepted to ACM Computing Survey.
