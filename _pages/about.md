@@ -21,7 +21,7 @@ News
 * [2026-07] We are organizing the [AIASci workshop](https://aiasciworkshop.github.io/) @ [AIAS](https://www.aiasplus.org/) 2026. More information will be updated soon.
 * [2026-06] Thrilled to receive the Distinguished Service Award at the C3NLP Workshop @ ACL 2026.
 * [2026-06] Two papers [NextMotionQA](https://arxiv.org/pdf/2606.04773) and [ChinaHeritaQA](https://arxiv.org/abs/2606.08959) are on Arxiv now.
-* [2026-05] Our survey paper [Transforming Science with LLMs](https://arxiv.org/pdf/2502.05151?) is accepted to ACM Computing Survey.
+* [2026-05] Our survey paper [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/pdf/2502.05151?) is accepted to ACM Computing Survey.
 * [2026-02] One paper [FrankenMotion](https://arxiv.org/abs/2601.10909) has been accepted to [CVPR 2026](https://cvpr.thecvf.com/).
 * [2026-01] One position paper [Embracing Open-Endedness](https://arxiv.org/abs/2510.13884) has beem accepted to [EACL 2026 main](https://2026.eacl.org/).
 * [2025-12] Our tutorial [AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://ai4science-tutorial.github.io/) has been accepted to [EACL 2026](https://2026.eacl.org/), collaborating with [Yufang Hou](https://yufanghou.github.io/), [Steffen Eger](https://www.utn.de/person/prof-dr-steffen-eger/), [Anne Lauscher](https://anne-lauscher.de/), [Wei Zhao](https://andyweizhao.github.io/). 
@@ -31,7 +31,7 @@ News
 * [2025-06] I am serving as Area Chair for EMNLP 2025.
 * [2025-06] Happy to join [WDMD 2025](https://wdmd-main.github.io/#/program) to discuss the reliability of LLMs.
 * [2025-05] [One paper](https://arxiv.org/pdf/2407.03884) is accepted to ACL 2025 main and [One paper](https://arxiv.org/pdf/2504.08385) is accepted to ACL 2025 demo.
-* [2025-03] A new survey paper, [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/abs/2502.05151), is now available on arXiv.
+<!-- * [2025-03] A new survey paper, [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/abs/2502.05151), is now available on arXiv. -->
 <!-- * [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management. -->
 <!-- * [2025-02] I am serving as Area Chair for ACL 2025. -->
 <!-- * [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main. -->
