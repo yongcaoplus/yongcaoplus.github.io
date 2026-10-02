@@ -1,112 +1,145 @@
 ---
 permalink: /
-title: "Greetings!"
+layout: homepage
+title: "Yong Cao"
 excerpt: "About me"
-author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
+
+# ---------- Header ----------
+name_cn: "(曹 勇)"
+email_obf: "yongcao2018 (at) gmail.com"
+position: "Postdoctoral Researcher"
+affiliation: "University of Tübingen"
+affiliation_url: "https://uni-tuebingen.de/en/"
+group: "Autonomous Vision Group"
+group_url: "https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/"
+interests: ["AI for Science", "LLM Post-training", "Multimodal", "Culture & LLMs", "LLMs for Social Science"]
+links:
+  cv: /files/cv_yong.pdf
+  scholar: "https://scholar.google.com/citations?user=-v8WGmQAAAAJ&hl=en"
+  github: "https://github.com/yongcaoplus"
+  twitter: "https://twitter.com/YongCaoPlus"
+  linkedin: "https://www.linkedin.com/in/yong-cao-91a527234/"
+  email: "mailto:yongcao2018@gmail.com"
+
+# ---------- News (newest first; first 6 shown, rest folded) ----------
+news:
+  - date: "2026-07"
+    text: "We are organizing the first [AIASci workshop](https://aiasciworkshop.github.io/) — End-to-End Research Workflow, Methods, and Applications for AI-Assisted Science — @ [AIAS](https://www.aiasplus.org/) 2026."
+  - date: "2026-06"
+    text: "Thrilled to receive the **Distinguished Service Award** at the C3NLP Workshop @ ACL 2026."
+  - date: "2026-06"
+    text: "Two papers, [NextMotionQA](https://arxiv.org/abs/2606.04773) and [ChinaHeritaQA](https://arxiv.org/abs/2606.08959), are on arXiv."
+  - date: "2026-05"
+    text: "Our survey [Transforming Science with Large Language Models](https://arxiv.org/abs/2502.05151) is accepted to **ACM Computing Surveys**."
+  - date: "2026-02"
+    text: "[FrankenMotion](https://arxiv.org/abs/2601.10909) is accepted to **CVPR 2026**."
+  - date: "2026-01"
+    text: "Position paper [Embracing Open-Endedness](https://arxiv.org/abs/2510.13884) is accepted to **EACL 2026** main (oral)."
+  - date: "2025-12"
+    text: "Our tutorial [AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://ai4science-tutorial.github.io/) is accepted to EACL 2026, with [Yufang Hou](https://yufanghou.github.io/), [Steffen Eger](https://www.utn.de/person/prof-dr-steffen-eger/), [Anne Lauscher](https://anne-lauscher.de/) and [Wei Zhao](https://andyweizhao.github.io/)."
+  - date: "2025-10"
+    text: "We are organizing the fourth [C3NLP Workshop](https://c3nlp.github.io/) co-located with ACL 2026."
+  - date: "2025-08"
+    text: "*Beyond Demographics* is accepted to EMNLP 2025 main; [MDPO](https://arxiv.org/abs/2508.13148) is on arXiv."
+  - date: "2025-07"
+    text: "Tutorial on AI4Science at the [IT:U Summer School](https://it-u.at/en/itu-summer-school-2025-on-nlp/)."
+  - date: "2025-06"
+    text: "Serving as Area Chair for EMNLP 2025; joined [WDMD 2025](https://wdmd-main.github.io/#/program) to discuss the reliability of LLMs."
+  - date: "2025-05"
+    text: "One paper accepted to ACL 2025 main and [Scholar Inbox](https://arxiv.org/abs/2504.08385) to ACL 2025 demo."
+
+# ---------- Service ----------
+service:
+  - label: "Area Chair"
+    text: "ACL 2025, EMNLP 2025, ACL ARR"
+  - label: "Co-Organizer"
+    text: "[C3NLP](https://c3nlp.github.io/) @ ACL 2024 / NAACL 2025 / ACL 2026, [AIASci](https://aiasciworkshop.github.io/) @ AIAS 2026"
+  - label: "Program Committee"
+    text: "AAAI, EACL, ACL ARR, CoLM, NeurIPS, ICLR, CVPR"
+  - label: "Media"
+    text: "Our [ChatGPT cultural-alignment study](https://arxiv.org/abs/2303.17466) was covered by Politiken, Børsen, Ekstra Bladet, P1 Morgen, TV 2 (Denmark) and Science et Avenir (France)."
+
+# ---------- Talks ----------
+talks:
+  - date: "2026-03"
+    title: "AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation"
+    where: "EACL 2026 Tutorial, Rabat, Morocco"
+    links: { website: "https://ai4science-tutorial.github.io/" }
+  - date: "2025-07"
+    title: "AI-Supported Literature Search"
+    where: "IT:U Summer School Tutorial, Linz, Austria"
+    links: { slides: "/files/[2025.7.25]ITU_Summer_School_Yong.pdf" }
+  - date: "2025-06"
+    title: "Cultural Reliability of LLMs: Can AI Truly Reflect Global Perspectives?"
+    where: "WDMD Workshop @ DSN 2025, Naples, Italy"
+  - date: "2024-09"
+    title: "Cultural Considerations in NLP"
+    where: "Xiaomi (online)"
+    links: { slides: "/files/2024-09-27-Xiaomi-Meeting.pdf" }
+  - date: "2024-03"
+    title: "Cultural Considerations in Large Language Models"
+    where: "Max Planck Institute for Human Development, Berlin"
+  - date: "2024-02"
+    title: "Cultural Considerations in Dialogue Systems"
+    where: "Philipps-University Marburg"
+    links: { slides: "/files/2024_Marburg.pdf" }
+  - date: "2023-10"
+    title: "Cultural Adaptation of Large Language Models"
+    where: "DIKU Bits, University of Copenhagen"
+    links: { abstract: "https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/", slides: "/files/2023_DIKU_Bits.pdf" }
+
+# ---------- Teaching ----------
+teaching:
+  - date: "2026 WS"
+    text: "Deep Learning (course, TA), University of Tübingen"
+  - date: "2025 WS"
+    text: "Seminar: LLM Research Assistants, University of Tübingen"
+  - date: "2025 WS"
+    text: "Bachelor Team Project, University of Tübingen"
+  - date: "2025-07"
+    text: "AI for Science (tutorial), IT:U Summer School, Linz"
+  - date: "2019"
+    text: "Big Data and Internet of Things, co-lecturer with Prof. Min Chen, HUST"
+
+# ---------- Education & experience ----------
+timeline:
+  - when: "2024 – now"
+    what: "Postdoctoral Researcher, University of Tübingen"
+    note: "with Prof. Andreas Geiger"
+  - when: "2022 – 2024"
+    what: "Visiting Ph.D. Student, University of Copenhagen"
+    note: "with Prof. Daniel Hershcovich"
+  - when: "2022"
+    what: "Research Intern, Alibaba DAMO Academy"
+    note: "NLP group · semantic similarity & re-ranking"
+  - when: "2021 – 2022"
+    what: "Research Intern, Xiaomi"
+    note: "Knowledge graph QA"
+  - when: "2021"
+    what: "Research Intern, Deepwisdom"
+    note: "AutoML for sequence tagging"
+  - when: "2020"
+    what: "Visiting Student, CUHK-Shenzhen"
+    note: "with Prof. Kai Hwang"
+  - when: "2018 – 2024"
+    what: "Ph.D. in Computer Science, Huazhong University of Science and Technology"
+    note: "with Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/)"
+  - when: "2014 – 2018"
+    what: "B.E. in Telecommunication Engineering, Sichuan University"
+
+# ---------- Honors ----------
+honors:
+  - "2026 Distinguished Service Award, C3NLP @ ACL"
+  - "2025 DDSA Visiting Grant, Denmark"
+  - "2023 DAAD AInet Fellow on Human-centered AI"
+  - "2023 Outstanding PhD Scholarship, HUST"
+  - "2021 International Youth Talent Fund, Zhejiang Lab"
+  - "2016, 2017 National Scholarship"
 ---
-I'm Yong Cao, currently a postdoctoral researcher at the [Autonomous Vision Group (AVG)](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/), [University of Tübingen](https://uni-tuebingen.de/en/), supervised by Prof. [Andreas Geiger](https://www.cvlibs.net/). I obtained my Ph.D. degreee at Huazhong University of Science and Technology in 2024 under the supervision of Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). From October 2022 to May 2024, I was a visiting Ph.D. student at the University of Copenhagen, supervised by [Daniel Hershcovich](https://danielhers.github.io/). I obtained my bachelor’s degree from Sichuan University in 2018. 
 
-My current research focus on <b>AI for Science</b>, with a focus on multimodal document understanding, summarization, scientific impact prediction, and scientific text generation. I am also deeply interested in <b>cultural adaptation</b> in large language models, particularly in the areas of cross-cultural text generation and social value alignment.
+I'm a postdoctoral researcher in the [Autonomous Vision Group](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/) at the [University of Tübingen](https://uni-tuebingen.de/en/), working with Prof. [Andreas Geiger](https://www.cvlibs.net/). I received my Ph.D. from Huazhong University of Science and Technology in 2024, advised by Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/), and spent 2022–2024 as a visiting Ph.D. student at the University of Copenhagen with [Daniel Hershcovich](https://danielhers.github.io/). Before that, I studied Telecommunication Engineering at Sichuan University.
 
-
-<!-- <p style="color:#2b90d9;">
-Feel free to reach out for any collaboration and discussion on related projects. If you are at the <b>University of Tübingen</b>, I am also open to supervising bachelor’s and master’s theses.
-</p> -->
-
-News
-------
-* [2026-07] We are organizing the first [End-to-End Research Workflow, Methods, and Applications for AI-Assisted Science(AIASci) workshop](https://aiasciworkshop.github.io/) @ [AIAS](https://www.aiasplus.org/) 2026. More information will be updated soon.
-* [2026-06] Thrilled to receive the Distinguished Service Award at the C3NLP Workshop @ ACL 2026.
-* [2026-06] Two papers [NextMotionQA](https://arxiv.org/pdf/2606.04773) and [ChinaHeritaQA](https://arxiv.org/abs/2606.08959) are on Arxiv now.
-* [2026-05] Our survey paper [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/pdf/2502.05151?) is accepted to ACM Computing Survey.
-* [2026-02] One paper [FrankenMotion](https://arxiv.org/abs/2601.10909) has been accepted to [CVPR 2026](https://cvpr.thecvf.com/).
-* [2026-01] One position paper [Embracing Open-Endedness](https://arxiv.org/abs/2510.13884) has beem accepted to [EACL 2026 main](https://2026.eacl.org/).
-* [2025-12] Our tutorial [AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://ai4science-tutorial.github.io/) has been accepted to [EACL 2026](https://2026.eacl.org/), collaborating with [Yufang Hou](https://yufanghou.github.io/), [Steffen Eger](https://www.utn.de/person/prof-dr-steffen-eger/), [Anne Lauscher](https://anne-lauscher.de/), [Wei Zhao](https://andyweizhao.github.io/). 
-* [2025-10] We are orgainzing the fourth Workshop on [Cross-Cultural Considerations in NLP (C3NLP)](https://c3nlp.github.io/) Co-located with ACL 2026!
-* [2025-08] One paper [Beyond Demographics: Enhancing Cultural Value Survey Simulation \\with Multi-Stage Personality-Driven Cognitive Reasoning]() is accepted to EMNLP main and One paper [MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models](https://arxiv.org/pdf/2508.13148) is now available on arXiv.
-* [2025-07] Excited to deliver a tutorial on AI4Science at the upcoming [IT:U Summer School](https://it-u.at/en/itu-summer-school-2025-on-nlp/). 
-* [2025-06] I am serving as Area Chair for EMNLP 2025.
-* [2025-06] Happy to join [WDMD 2025](https://wdmd-main.github.io/#/program) to discuss the reliability of LLMs.
-* [2025-05] [One paper](https://arxiv.org/pdf/2407.03884) is accepted to ACL 2025 main and [One paper](https://arxiv.org/pdf/2504.08385) is accepted to ACL 2025 demo.
-<!-- * [2025-03] A new survey paper, [Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation](https://arxiv.org/abs/2502.05151), is now available on arXiv. -->
-<!-- * [2025-03] [One paper](https://www.sciencedirect.com/science/article/pii/S030645732500041X) is published at Information Processing & Management. -->
-<!-- * [2025-02] I am serving as Area Chair for ACL 2025. -->
-<!-- * [2025-01] Two papers are accepted to [NAACL 2025](https://2025.naacl.org/) main. -->
-<!-- * [2024-11] Thrilled to join the amazing [Workshop of the ELLIS Natural Language Processing Program](https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/24485). -->
-<!-- * [2024-09] I joined the [AVG group](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/team/) at the University of Tübingen as a Postdoc. -->
-<!-- * [2024-06] I finished my Ph.D. defense at Huazhong University of Science and Technology. Thanks my Supervisor Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/). -->
-<!-- * [2024-04] [One paper](https://arxiv.org/abs/2407.04999) was accepted by IJCAI 2024. -->
-<!-- * [2024-03] Give a talk at [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality). -->
-<!-- * [2024-02] Give a talk at [Philipps-University Marburg](https://www.uni-marburg.de/en).  -->
-* ...
-
-
-<!-- * [2024-02] Excited to visit [Christin Seifert](http://christinseifert.info/) at Philipps-University Marburg and [Dirk U. Wulff](https://www.dirkwulff.org/) at Max Planck Institute for Human Development.
-* [2024-01] Two papers were accepted by EACL 2024, [one](https://arxiv.org/abs/2309.01606) to the main conference and [one](https://arxiv.org/abs/2401.10352) to findings.
-* [2023-12] We are orgainzing the [Cross-Cultural Considerations in NLP](https://sites.google.com/view/c3nlp) Workshop at ACL 2024.
-* [2023-12] [One paper](https://arxiv.org/abs/2401.01667) was accepted by IEEE ICASSP 2024.
-* [2023-10] Excited to be selected as DAAD AInet fellow for the Postdoc-NeT-AI 11/2023 Networking Week on Human-centered AI.
-* [2023-10] [One paper](https://arxiv.org/abs/2310.17353) was accepted by Transactions of the Association for Computational Linguistics (TACL).
-* [2023-08] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by Danish newspaper [Børsen](https://borsen.dk/nyheder/ai/populaer-chatbot-promoverer-amerikanske-vaerdier-og-normer).
-* [2023-07] [Our paper](https://arxiv.org/pdf/2303.17466.pdf) was reported by several Danish media, including [Politiken](https://politiken.dk/debat/klummer/jarlner/art9429359/Samtalerobot-er-et-redskab-for-amerikansk-kulturimperialisme), [Børsen](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [Danish TV2](https://www.tv2kosmopol.dk/nyhedsarkiv?date=2023-07-10&clip=634dda2b-8303-4527-aeff-a96418116135), [Ekstra Bladet](https://ekstrabladet.dk/nyheder/samfund/chatgpt-fremmer-amerikanske-normer-og-vaerdier/9856186), [University of Copenhagen](https://di.ku.dk/english/news/2023/chatgpt-promotes-american-norms-and-values/)! -->
-
-Talk
-------
-* [2026-03] AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation, EACL 2026 Tutorial. [Website](https://ai4science-tutorial.github.io/)
-* [2025-07] AI-Supported Literature Search, IT:U Summer School Tutorial. [[Slides](/files/[2025.7.25]ITU_Summer_School_Yong.pdf)]
-* [2025-06] Cultural Reliability of LLMs: Can AI Truly Reflect Global Perspectives? WDMD Workshop @ DSN 2025.
-* [2024-09] Cultural Considerations in NLP, Xiaomi. [[Slides](/files/2024-09-27-Xiaomi-Meeting.pdf)]
-* [2024-03] Cultural Considerations in Large Language Models, Max Planck Institute for Human Development.
-* [2024-02] Cultural Considerations in Dialogue Systems, Philipps-University Marburg. [[Slides](/files/2024_Marburg.pdf)]
-* [2023-10] Cultural Adaptation of Large Language Models. DIKU Bits, University of Copenhagen. [[Abstract](https://di.ku.dk/begivenhedsmappe/begivenheder-2023/diku-bits-nlp-october-2023/)] [[Slides](/files/2023_DIKU_Bits.pdf)]
-* ...
-
-Education
-------
-<!-- ### Education -->
-  * **University of Copenhagen**
-    * Visiting Student, 2022.10 - 2024.03
-    * Advisor: Prof. [Daniel Hershcovich](https://danielhers.github.io/)
-    * Research Topic: Cross-Cultural Dialogue Agents
-  * **Huazhong University of Science and Technology**
-    * Ph.D. in Computer Science, 2018.09 -
-    * Advisor: Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
-    * Research Topic: Dialogue Agents in Psychological Counseling Domain
-  * **The Chinese University of Hong Kong, Shenzhen**
-    * Visiting Student, 2020.07 - 2020.10
-    * Co-Advisor: Prof. [Kai Hwang](https://myweb.cuhk.edu.cn/hwangkai) and Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
-  * **Sichuan University**
-    * B.E. in Telecommunication Engineering, 2014 - 2018
-    * Advisor: Prof. Wudi Wei
-    * Thesis Title: Speech Emotion Analysis based on Convolutional Neural Network
-    * SCU Outstanding Undergraduate Award (Top 5%)
-    
-
-<!-- Publications
------- -->
-
-
-Experience
-------
-  * **06/2022 - 10/2022, Alibaba DAMO**
-    * Research Intern at the NLP group
-    * Mentor: [Ruixue Ding](https://scholar.google.com.hk/citations?hl=zh-CN&user=wAktw3cAAAAJ&view_op=list_works&sortby=pubdate) and [Boli Chen](https://scholar.google.com.hk/citations?user=P3IMdZ4AAAAJ&hl=zh-CN&oi=ao).
-    * Focus:  Semantic Textual Similarity, Re-ranking
-  * **10/2021 - 05/2022, Xiaomi**
-    * Research Intern at the Knowledge Graph group
-    * Mentor: Wen Dai and Huiwen Liu.
-    * Focus: Question Answering Based on Knowledge Graph
-  * **01/2021 - 06/2021, Deepwisdom**
-    * Research Intern at the Natural Language Processing group
-    * Mentor: Yang Zhang.
-    * Focus: AutoML, NER, Text Classification and Information Extraction
-  * **07/2020 - 10/2020, The Chinese University of Hong Kong, Shenzhen**
-    * Visiting Student at the SDS College
-    * Mentor: Prof. [Kai Hwang](https://myweb.cuhk.edu.cn/hwangkai) and Prof. [Min Chen](https://people.ece.ubc.ca/~minchen/) 
-    * Focus: Deep Learning Benchmark, Huawei Atlas 200DK.
-    
-    
-
+My research centers on **AI for Science** — multimodal understanding of scientific documents, scientific impact prediction, and agents that help researchers ideate and write. I'm equally interested in **culture in large language models**: how well LLMs reflect the values and knowledge of different societies, and how to adapt them across cultures. Recently, I've also been exploring **human motion understanding** with vision-language models.

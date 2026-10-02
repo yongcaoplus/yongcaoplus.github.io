@@ -1,0 +1,358 @@
+# Publications shown on the homepage, newest first.
+#
+# Fields
+#   title, authors, venue, year   – required
+#   type     : conference | preprint
+#   topic    : science | culture | multimodal | nlp | early   (drives the filter chips + placeholder colour)
+#   tags     : any of  oral | first | supervision
+#   image    : optional, e.g. /images/papers/frankenmotion.png  (falls back to a placeholder tile)
+#              By default the image is stretched to fill the 16:10 box exactly.
+#   image_fit: optional, "cover" = fill the box keeping proportions (crops edges),
+#              "contain" = show the whole image keeping proportions (may leave blank margins)
+#   links    : optional map of label -> url, e.g. paper / project / code / slides / poster
+
+- title: "LLM4Impact: Integrating Heterogeneous Information for Scientific Impact Prediction"
+  authors: "Yong Cao, Markus Flicke, Haoyu He, Katrin Renz, Andreas Geiger"
+  venue: "arXiv"
+  year: 2026
+  type: preprint
+  topic: science
+  tags: [first]
+  image: /images/papers/2026_impact.png
+
+- title: "NextMotionQA: Benchmarking and Judging Human Motion Understanding with Vision-Language Models"
+  authors: "Yong Cao, Chuqiao Li, Xianghui Xie, Gerard Pons-Moll, Andreas Geiger"
+  venue: "arXiv"
+  year: 2026
+  type: preprint
+  topic: multimodal
+  tags: [first]
+  links:
+    paper: https://arxiv.org/abs/2606.04773
+  image: /images/papers/2026_nextmotion.png
+  image_fit: contain
+
+- title: "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation"
+  authors: "Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, Gerard Pons-Moll"
+  venue: "arXiv"
+  year: 2026
+  type: preprint
+  topic: multimodal
+  tags: [first]
+  image: /images/papers/2026_pami.png
+  image_fit: contain
+
+- title: "ChinaHeritaQA: A Culturally-Grounded Visual Question Answering Dataset for World Heritage Sites in China"
+  authors: "Yi Zhang, Bolei Ma, Yong Cao, Chengyan Wu, Daniel Hershcovich, Anna-Carolina Haensch"
+  venue: "arXiv"
+  year: 2026
+  type: preprint
+  topic: culture
+  links:
+    paper: https://arxiv.org/abs/2606.08959
+  image: /images/papers/2026_china.png
+  image_fit: contain
+
+
+- title: "FrankenMotion: Part-level Human Motion Generation and Composition"
+  authors: "Chuqiao Li, Xianghui Xie, Yong Cao, Andreas Geiger, Gerard Pons-Moll"
+  venue: "CVPR"
+  year: 2026
+  type: conference
+  topic: multimodal
+  tags: [supervision]
+  links:
+    paper: https://arxiv.org/abs/2601.10909
+  image: /images/papers/2026_frakenmotion.png
+  image_fit: contain
+
+- title: "UniComp: A Unified Evaluation of Large Language Model Compression via Pruning, Quantization and Distillation"
+  authors: "Jonathan von Rad, Yong Cao, Andreas Geiger"
+  venue: "EMNLP 2026 (main)"
+  year: 2026
+  type: preprint
+  topic: nlp
+  tags: [supervision]
+  image: /images/papers/2026_UNICOMP.png
+  image_fit: contain
+
+- title: "HorizonBench: Evaluating Ideation Agents on Future Scientific Discoveries"
+  authors: "Markus Flicke, Haoyu He, Kashyap Chitta, Yong Cao, Andreas Geiger"
+  venue: "AACL"
+  year: 2026
+  type: conference
+  topic: science
+  tags: [supervision]
+  image: /images/papers/2026_HorizonBench.png
+
+- title: "Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation"
+  authors: "Steffen Eger, Yong Cao, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller"
+  venue: "ACM Computing Surveys"
+  year: 2026
+  type: conference
+  topic: science
+  links:
+    paper: https://arxiv.org/abs/2502.05151
+  image: /images/papers/2026_survey.png
+
+- title: "Too Open for Opinion? Embracing Open-Endedness in Large Language Models for Social Simulation"
+  authors: "Bolei Ma, Yong Cao, Indira Sen, Anna-Carolina Haensch, Frauke Kreuter, Barbara Plank, Daniel Hershcovich"
+  venue: "EACL"
+  year: 2026
+  type: conference
+  topic: culture
+  tags: [oral]
+  links:
+    paper: https://arxiv.org/abs/2510.13884
+  image: /images/papers/2026_position.png
+
+- title: "Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations"
+  authors: "Yong Cao, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Röttger, Daniel Hershcovich"
+  venue: "NAACL"
+  year: 2025
+  type: conference
+  topic: culture
+  tags: [oral, first]
+  image: /images/papers/2025_simulation.png
+  image_fit: contain
+
+- title: "Scholar Inbox: Personalized Paper Recommendations for Scientists"
+  authors: "Markus Flicke, Glenn Angrabeit, Madhav Iyengar, Vitalii Protsenko, Illia Shakun, Jovan Cicvaric, Bora Kargi, Haoyu He, Lukas Schuler, Lewin Scholz, Kavyanjali Agnihotri, Yong Cao, Andreas Geiger"
+  venue: "ACL Demo"
+  year: 2025
+  type: conference
+  topic: science
+  tags: [supervision]
+  links:
+    paper: https://arxiv.org/abs/2504.08385
+    project: https://www.scholar-inbox.com/
+  image: /images/papers/2025_scholarinbox.png
+  image_fit: contain
+
+- title: "ChatSOP: An SOP-Guided MCTS Planning Framework for Controllable LLM Dialogue Agents"
+  authors: "Zhigen Li, Jianxiang Peng, Yanmeng Wang, Yong Cao, Tianhao Shen, Minghui Zhang, Linxi Su, Shang Wu, Yihang Wu, YuQian Wang, Ye Wang, Wei Hu, Jianfeng Li, Shaojun Wang, Jing Xiao, Deyi Xiong"
+  venue: "ACL"
+  year: 2025
+  type: conference
+  topic: nlp
+  image: /images/papers/2025_ChatSOP.png
+
+- title: "Does Mapo Tofu Contain Coffee? Probing LLMs for Food-related Cultural Knowledge"
+  authors: "Li Zhou, Taelin Karidi, Wanlong Liu, Nicolas Garneau, Yong Cao, Wenyu Chen, Haizhou Li, Daniel Hershcovich"
+  venue: "NAACL"
+  year: 2025
+  type: conference
+  topic: culture
+  image: /images/papers/2025_mapo.png
+  image_fit: contain
+
+- title: "Beyond Demographics: Enhancing Cultural Value Survey Simulation with Multi-Stage Personality-Driven Cognitive Reasoning"
+  authors: "Haijiang Liu, Qiyuan Li, Chao Gao, Yong Cao, Xiangyu Xu, Xun Wu, Daniel Hershcovich, Jinguang Gu"
+  venue: "EMNLP"
+  year: 2025
+  type: conference
+  topic: culture
+  image: /images/papers/2025_mbti.png
+  image_fit: contain
+
+- title: "Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation"
+  authors: "Haijiang Liu, Yong Cao, Xun Wu, Chen Qiu, Jinguang Gu, Maofu Liu, Daniel Hershcovich"
+  venue: "Information Processing & Management"
+  year: 2025
+  type: conference
+  topic: culture
+  links:
+    paper: https://www.sciencedirect.com/science/article/pii/S030645732500041X
+  image: /images/papers/2025_towards.png
+
+- title: "MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models"
+  authors: "Haoyu He, Katrin Renz, Yong Cao, Andreas Geiger"
+  venue: "arXiv"
+  year: 2025
+  type: preprint
+  topic: nlp
+  tags: [supervision]
+  links:
+    paper: https://arxiv.org/abs/2508.13148
+  image: /images/papers/2025_mdpo.png
+  image_fit: contain
+
+- title: "Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking"
+  authors: "Yong Cao, Ruixue Ding, Boli Chen, Xianzhi Li, Min Chen, Daniel Hershcovich, Pengjun Xie, Fei Huang"
+  venue: "EACL"
+  year: 2024
+  type: conference
+  topic: nlp
+  tags: [oral, first]
+  links:
+    paper: https://arxiv.org/abs/2309.01606
+    slides: /files/2024_EACL_Geo_Encoder.pdf
+  image: /images/papers/2024_Geoencoder.png
+  image_fit: contain
+
+- title: "Cultural Adaptation of Recipes"
+  authors: "Yong Cao, Yova Kementchedjhieva, Ruixiang Cui, Antonia Karamolegkou, Li Zhou, Megan Dare, Lucia Donatelli, Daniel Hershcovich"
+  venue: "TACL"
+  year: 2024
+  type: conference
+  topic: culture
+  tags: [oral, first]
+  links:
+    paper: https://arxiv.org/abs/2310.17353
+  image: /images/papers/2024_recipe.png
+  image_fit: contain
+
+- title: "Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys"
+  authors: "Yong Cao, Min Chen, Daniel Hershcovich"
+  venue: "EACL(Findings)"
+  year: 2024
+  type: conference
+  topic: culture
+  tags: [first]
+  links:
+    paper: https://arxiv.org/abs/2401.10352
+  image: /images/papers/2024_culture_dialog.png
+
+- title: "Rethinking the Effectiveness of Graph Classification Datasets in Benchmarks for Assessing GNNs"
+  authors: "Zhengdao Li, Yong Cao, Kefan Shuai, Yiming Miao, Kai Hwang"
+  venue: "IJCAI"
+  year: 2024
+  type: conference
+  topic: early
+  tags: [oral]
+  links:
+    paper: https://arxiv.org/abs/2407.04999
+    poster: /files/2024_ijcai_poster.pdf
+  image: /images/papers/2024_GNN.png
+
+- title: "MLPs Compass: What is Learned when MLPs are Combined with PLMs?"
+  authors: "Li Zhou, Wenyu Chen, Yong Cao, et al."
+  venue: "ICASSP"
+  year: 2024
+  type: conference
+  topic: nlp
+  links:
+    paper: https://arxiv.org/abs/2401.01667
+  image: /images/papers/2024_MLPCompass.png
+
+- title: "Vision-Language Models under Cultural and Inclusive Considerations"
+  authors: "Antonia Karamolegkou, Phillip Rust, Yong Cao, Ruixiang Cui, Anders Søgaard, Daniel Hershcovich"
+  venue: "HuCLLM Workshop @ ACL"
+  year: 2024
+  type: conference
+  topic: culture
+  image: /images/papers/2024_VLMs.png
+
+- title: "Exploring Visual Culture Awareness in GPT-4V: A Comprehensive Probing"
+  authors: "Yong Cao, Wenyan Li, Jiaang Li, Yifei Yuan, Daniel Hershcovich"
+  venue: "arXiv"
+  year: 2024
+  type: preprint
+  topic: culture
+  tags: [first]
+  image: /images/papers/2024_gpt4v.png
+
+- title: "Pay More Attention to Relation Exploration for Knowledge Base Question Answering"
+  authors: "Yong Cao, Xianzhi Li, Huiwen Liu, Wen Dai, Shuai Chen, Bin Wang, Min Chen, Daniel Hershcovich"
+  venue: "ACL (Findings)"
+  year: 2023
+  type: conference
+  topic: nlp
+  tags: [first]
+  links:
+    paper: https://arxiv.org/abs/2305.02118
+  image: /images/papers/2023_KBQA.png
+
+- title: "Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study"
+  authors: "Yong Cao, Li Zhou, Seolhwa Lee, Laura Cabello, Min Chen, Daniel Hershcovich"
+  venue: "C3NLP @ EACL"
+  year: 2023
+  type: conference
+  topic: culture
+  tags: [oral, first]
+  links:
+    paper: https://arxiv.org/abs/2303.17466
+    slides: /files/ChatGPTEvaluation_EACLworkshop.pdf
+  image: /images/papers/2023_accessing.png
+
+- title: "Cross-cultural Transfer Learning for Chinese Offensive Language Detection"
+  authors: "Li Zhou, Laura Cabello, Yong Cao, Daniel Hershcovich"
+  venue: "C3NLP @ EACL"
+  year: 2023
+  type: conference
+  topic: culture
+  tags: [oral]
+  links:
+    paper: https://arxiv.org/abs/2303.17927
+  image: /images/papers/2023_offensive.png
+  image_fit: contain
+
+- title: "Edge AiBench: Scenario-Based AI Benchmarking for Cloud/Edge/Device Computing"
+  authors: "Tianshu Hao, Jianfeng Zhan, Kai Hwang, Yong Cao"
+  venue: "IEEE Transactions on Computers"
+  year: 2023
+  type: conference
+  topic: early
+  image: /images/papers/2023_aibench.png
+
+- title: "Explore More Guidance: A Task-aware Instruction Network for Sign Language Translation Enhanced with Data Augmentation"
+  authors: "Yong Cao, Wei Li, Xianzhi Li, Min Chen, Guangyong Chen, Long Hu, Zhengdao Li, Kai Hwang"
+  venue: "NAACL (Findings)"
+  year: 2022
+  type: conference
+  topic: multimodal
+  tags: [first]
+  links:
+    poster: /files/poster_naacl2022.pdf
+  image: /images/papers/2022_explore.png
+
+- title: "Generative Adversarial Network Based Abnormal Behavior Detection in Massive Crowd Videos: A Hajj Case Study"
+  authors: "Tarik Alafif, Bander Alzahrani, Yong Cao, Reem Alotaibi, Ahmed Barnawi, Min Chen"
+  venue: "Intelligence and Humanized Computing"
+  year: 2021
+  type: conference
+  topic: early
+  links:
+    paper: https://link.springer.com/article/10.1007/s12652-021-03323-5
+  image: /images/papers/2021_abnormal.png
+
+- title: "CreativeBioMan: Brain and Body Wearable Computing based Creative Gaming System"
+  authors: "Min Chen, Yingying Jiang, Yong Cao, Albert Y. Zomaya"
+  venue: "IEEE SMC Magazine"
+  year: 2020
+  type: conference
+  topic: early
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/8961340
+  image: /images/papers/2020_creative.png
+
+- title: "AI Agent in Software-defined Network: Agent-based Network Service Prediction and Wireless Resource Scheduling Optimization"
+  authors: "Yong Cao, Rui Wang, Min Chen, Ahmed Barnawi"
+  venue: "IEEE Internet of Things Journal"
+  year: 2019
+  type: conference
+  topic: early
+  tags: [first]
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/8888257
+  image: /images/papers/2019_agent.png
+
+- title: "Agent-enabled Task Offloading in UAV-aided Mobile Edge Computing"
+  authors: "Rui Wang, Yong Cao, Adeeb Noor, Thamer A. Alamoudi, Redhwan Nour"
+  venue: "Computer Communications"
+  year: 2019
+  type: conference
+  topic: early
+  links:
+    paper: https://www.sciencedirect.com/science/article/abs/pii/S0140366419306292
+  image: /images/papers/2019_uav.png
+
+- title: "DeepFocus: Deep Encoding Brainwaves and Emotions with Multi-scenario Behavior Analytics for Human Attention Enhancement"
+  authors: "Min Chen, Yong Cao, Rui Wang, Yong Li, Di Wu, Zhongchun Liu"
+  venue: "IEEE Network"
+  year: 2019
+  type: conference
+  topic: early
+  links:
+    paper: https://ieeexplore.ieee.org/abstract/document/8933562
+  image: /images/papers/2019_deepfocus.png
