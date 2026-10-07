@@ -1,0 +1,600 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>LLM4Impact Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: light;
+  /* Editorial paper-supplementary palette (ref: example_web.png) -- warm
+     paper-white ground, near-black serif title text, a small set of muted
+     saturated hues reserved for the title's two halves and status accents,
+     a cool blue reserved for "this is our result" highlights. */
+  --page: #faf8f3; --page2: #f0efe6; --surface: #ffffff; --surface2: #f4f2ea;
+  --text: #1c1b18; --text2: #4c4a42; --muted: #8a8778; --border: rgba(28,27,24,0.10); --border-strong: rgba(28,27,24,0.18);
+  --accent: #5f8d63; --accent2: #4a7fa3; --accent-wash: rgba(95,141,99,0.09); --accent-wash2: rgba(74,127,163,0.10);
+  --accent-grad: linear-gradient(135deg, var(--accent), var(--accent2));
+  --llm-hue: #5f8d63; --impact-hue: #b0562f;
+  --gold: #b0562f; --gold-wash: rgba(176,86,47,0.12);
+  --good: #3f7a56; --good-wash: rgba(63,122,86,0.10); --bad: #b0473f; --bad-wash: rgba(176,71,63,0.09);
+  --ours: #4a7fa3; --ours-wash: rgba(74,127,163,0.08);
+  --shadow: 0 1px 2px rgba(28,27,24,0.05), 0 8px 24px -8px rgba(28,27,24,0.12);
+  --shadow-lg: 0 4px 14px rgba(28,27,24,0.07), 0 24px 56px -16px rgba(28,27,24,0.20);
+  --header-bg: rgba(250,248,243,0.82);
+  --m-scibert: #5f8d63; --m-dppdcc: #6a63b0; --m-llm4impact: #4a7fa3; --m-llm4impact_7b: #b0562f;
+  --m-h2cgl: #3d7a8c; --m-naip: #7a8c3d;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --page: #131210; --page2: #0c0b0a; --surface: #1c1a17; --surface2: #242220;
+    --text: #f3f0e8; --text2: #cbc7ba; --muted: #948f80; --border: rgba(255,255,255,0.08); --border-strong: rgba(255,255,255,0.16);
+    --accent: #86c08c; --accent2: #7fb6dd; --accent-wash: rgba(134,192,140,0.13); --accent-wash2: rgba(127,182,221,0.14);
+    --accent-grad: linear-gradient(135deg, var(--accent), var(--accent2));
+    --llm-hue: #86c08c; --impact-hue: #e0916a;
+    --gold: #e0916a; --gold-wash: rgba(224,145,106,0.16);
+    --good: #6fc490; --good-wash: rgba(111,196,144,0.14); --bad: #e0857c; --bad-wash: rgba(224,133,124,0.14);
+    --ours: #7fb6dd; --ours-wash: rgba(127,182,221,0.12);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -8px rgba(0,0,0,0.5);
+    --shadow-lg: 0 4px 16px rgba(0,0,0,0.35), 0 24px 56px -16px rgba(0,0,0,0.6);
+    --header-bg: rgba(19,18,16,0.78);
+    --m-scibert: #86c08c; --m-dppdcc: #a89bec; --m-llm4impact: #7fb6dd; --m-llm4impact_7b: #e0916a;
+    --m-h2cgl: #6fbcd1; --m-naip: #a6c06f;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin:0; color:var(--text); font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(1100px 480px at 12% -8%, var(--accent-wash), transparent 60%),
+    radial-gradient(900px 420px at 100% 0%, var(--gold-wash), transparent 55%),
+    var(--page);
+  background-attachment: fixed;
+  font-size: 15.5px; line-height: 1.5;
+}
+.wrap { max-width: 1300px; margin: 0 auto; padding: 0 24px 100px; }
+
+/* ---------------- Sticky header ---------------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--header-bg); backdrop-filter: blur(16px) saturate(1.4); -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  border-bottom: 1px solid var(--border); transition: box-shadow .2s ease, border-color .2s ease;
+}
+.site-header.scrolled { box-shadow: 0 4px 20px -8px rgba(0,0,0,0.18); border-color: var(--border-strong); }
+.header-inner {
+  max-width: 1300px; margin: 0 auto; padding: 14px 24px;
+  display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;
+}
+.brand { font-family:"Lora", Georgia, serif; font-style:italic; font-weight:600; font-size:18px; letter-spacing:-0.01em;
+  color: var(--text); white-space:nowrap; flex-shrink:0; }
+.brand b { font-style:normal; background:var(--accent-grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
+
+nav.tabs { display:flex; gap:6px; flex-wrap:wrap; }
+nav.tabs button {
+  position:relative; font: inherit; font-size: 13px; font-weight:700; padding: 10px 16px; border-radius: 10px;
+  border: 1px solid transparent; background: transparent; color: var(--text2); cursor:pointer;
+  transition: color .18s ease, background .18s ease, transform .08s ease; overflow:visible; line-height:1.3;
+}
+nav.tabs button:hover { color: var(--accent2); background: linear-gradient(135deg, var(--accent-wash), var(--accent-wash2)); }
+nav.tabs button:active { transform: scale(0.96); }
+nav.tabs button.active {
+  background: var(--accent-grad); color:#fff9ee; border-color:transparent;
+  box-shadow: 0 3px 12px -4px rgba(54,46,107,0.45);
+}
+@media (prefers-color-scheme: dark) { nav.tabs button.active { color:#171320; } }
+
+/* ---------------- Hero ---------------- */
+.hero { text-align:center; max-width: 780px; margin: 0 auto; padding: 52px 0 36px; }
+.eyebrow { font-size:13px; color: var(--muted); margin: 14px 0 0; }
+h1 { font-family: "Lora", Georgia, serif; font-style: normal; font-weight: 600; font-size: 38px; letter-spacing: -0.01em;
+  margin: 0; line-height:1.28; }
+h1 .llm { color: var(--llm-hue); }
+h1 .impact { color: var(--impact-hue); }
+.release-note { font-size: 13px; color: var(--muted); font-style: italic; margin: 10px 0 0; }
+.lede { font-size: 14px; color: var(--muted); max-width: 66ch; margin: 20px auto 0; line-height:1.6; }
+.lede code { background: var(--surface2); padding:1px 6px; border-radius:5px; font-size:0.92em; border:1px solid var(--border); }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 24px 26px; margin-bottom: 18px; box-shadow: var(--shadow); }
+.hint { font-size: 13px; color: var(--muted); margin: 0 0 16px; }
+
+/* case gallery */
+.gallery-controls { display:flex; gap:10px; margin-bottom:16px; flex-wrap:wrap; align-items:center; }
+.gallery-controls input[type=text] { font:inherit; font-size:14px; padding:10px 14px; border-radius:10px; border:1px solid var(--border-strong); background:var(--surface); color:var(--text); flex:1; min-width:220px; }
+.filter-chip { font-size:12.5px; font-weight:700; padding:7px 13px; border-radius:999px; border:1px solid var(--border-strong); background:var(--surface); color:var(--text2); cursor:pointer; }
+.filter-chip.on { background: var(--accent-wash2); border-color: var(--accent); color: var(--accent); }
+.case-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap:14px; align-items:start; }
+.case-card { background: var(--surface); border:1px solid var(--border); border-radius:14px; padding:16px 18px; cursor:pointer; transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease; box-shadow: var(--shadow); position:relative; }
+.case-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.case-card .ct { font-size:14.5px; font-weight:700; line-height:1.35; margin-bottom:8px; padding-right: 70px; }
+.case-card .cm { font-size:12px; color:var(--muted); }
+.case-card.expanded, .ds-card.expanded {
+  grid-column: 1 / -1; cursor:default; padding: 22px 24px 26px;
+  border-color: var(--border-strong); box-shadow: var(--shadow-lg); animation: expand-in .22s ease;
+}
+.case-card.expanded:hover, .ds-card.expanded:hover { transform:none; }
+@keyframes expand-in { from { opacity:0; transform: translateY(-4px); } to { opacity:1; transform:none; } }
+.badge { position:absolute; top:14px; right:14px; font-size:10px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; padding:4px 8px; border-radius:999px; }
+.badge.winner { background: var(--ours-wash); color: var(--ours); }
+.badge.typical { background: var(--surface2); color: var(--muted); border:1px solid var(--border); }
+.badge.loss { background: var(--bad-wash); color: var(--bad); }
+
+/* case/dataset detail (expanded-in-place) -- floating collapse button:
+   solid-filled by default so it reads as "the way back" immediately, and
+   flips to a white surface on hover/focus so the intent to click is clear. */
+.collapse-btn {
+  position: sticky; top: 78px; z-index: 5;
+  width: max-content; margin: -4px 0 18px auto;
+  font: inherit; font-size:12.5px; font-weight:700; color:#fffaf0; background: var(--accent-grad);
+  border:1.5px solid transparent; border-radius:999px; cursor:pointer; padding:9px 18px 9px 14px;
+  display:flex; align-items:center; gap:7px;
+  box-shadow: var(--shadow-lg); transition: background .18s ease, color .18s ease, border-color .18s ease, transform .08s ease;
+}
+.collapse-btn:hover, .collapse-btn:focus-visible {
+  background: var(--surface); color: var(--accent2); border-color: var(--accent);
+}
+.collapse-btn:active { transform: scale(0.96); }
+.back-btn { font: inherit; font-size:13px; font-weight:700; color:var(--accent); background:none; border:none; cursor:pointer; padding:0 0 16px; display:flex; align-items:center; gap:6px; }
+.picked { font-size: 21px; font-weight: 800; margin-bottom: 6px; letter-spacing: -0.01em; }
+.picked-meta { font-size: 13px; color: var(--muted); margin-bottom: 18px; }
+.picked-meta b { color: var(--text2); font-weight: 700; }
+.method-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:14px; }
+.m-badge { display:inline-flex; align-items:center; gap:8px; font-size:14.5px; font-weight:800; padding: 2px 0 10px; }
+.m-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+.method-panel { background: var(--surface2); border:1px solid var(--border); border-radius:13px; padding:14px 16px; }
+.method-panel.winner-highlight { border-color: var(--ours); background: color-mix(in srgb, var(--ours) 6%, var(--surface2)); }
+.chart-svg { width:100%; height: 160px; display:block; }
+.bar-val { font-size: 10px; font-weight: 700; fill: var(--text2); }
+.axis { font-size: 9.5px; fill: var(--muted); font-weight: 600; }
+.legend { display:flex; gap:14px; font-size:11.5px; color:var(--text2); margin-top:6px; font-weight:600; }
+.legend .sw { display:inline-block; width:9px; height:9px; border-radius:3px; margin-right:5px; vertical-align:-1px; }
+.stat-row { display:flex; gap:8px; margin-top:10px; }
+.stat-tile { flex:1; background: var(--surface); border:1px solid var(--border); border-radius:10px; padding:8px 10px; }
+.stat-tile .sl { font-size: 9.5px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin-bottom:2px; }
+.stat-tile .sv { font-size: 16px; font-weight:800; letter-spacing:-0.01em; font-variant-numeric: tabular-nums; }
+.stat-tile.win .sv { color: var(--ours); }
+.callout { background: var(--ours-wash); border:1px solid var(--ours); color: var(--ours); border-radius:12px; padding:12px 16px; font-size:13px; font-weight:600; margin-bottom:18px; }
+.callout.neutral { background: var(--surface2); border-color: var(--border); color: var(--text2); }
+
+/* ablation views */
+table.ablation { width:100%; border-collapse:collapse; font-size:13px; margin-top:8px; }
+table.ablation th, table.ablation td { text-align:right; padding:9px 10px; border-bottom:1px solid var(--border); }
+table.ablation th:first-child, table.ablation td:first-child { text-align:left; }
+table.ablation th { color:var(--muted); font-weight:700; font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; }
+table.ablation td.num { font-variant-numeric: tabular-nums; font-weight:600; }
+table.ablation td.neg { color: var(--bad); }
+table.ablation td.pos { color: var(--good); }
+select { font:inherit; font-size:14px; padding:10px 14px; border-radius:10px; border:1px solid var(--border-strong); background:var(--surface); color:var(--text); }
+.section-title { font-size:16px; font-weight:800; margin: 26px 0 4px; }
+.removed-refs { font-size:12px; color:var(--muted); margin-top:8px; }
+.removed-refs code { background: var(--surface); padding:1px 5px; border-radius:4px; border:1px solid var(--border); }
+
+/* paper metadata block (case detail + dataset examples) */
+.meta-grid { display:grid; grid-template-columns: 1fr 1fr; gap:24px; margin-bottom:20px; }
+@media (max-width: 820px) { .meta-grid { grid-template-columns: 1fr; } }
+.abstract { font-size: 13.5px; color: var(--text2); line-height:1.65; max-height: 14em; overflow-y:auto; margin-bottom: 14px;
+  padding: 14px 16px; background: var(--surface2); border-radius: 12px; border: 1px solid var(--border); }
+.field-label { font-size: 11px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin: 0 0 6px; }
+.chip-row { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
+.chip { font-size:12px; font-weight:600; padding:5px 11px; border-radius:999px; background:var(--accent-wash2); color:var(--accent); }
+.ref-scroll { max-height:220px; overflow-y:auto; border:1px solid var(--border); border-radius:12px; background:var(--surface2); }
+.ref-item { font-size:12.5px; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.ref-item:last-child { border-bottom:none; }
+.ref-item .ry { color: var(--muted); font-size: 11px; }
+
+/* dataset examples */
+.ds-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:14px; }
+.ds-card { background: var(--surface); border:1px solid var(--border); border-radius:14px; padding:16px 18px; cursor:pointer; transition: all .12s; box-shadow: var(--shadow); }
+.ds-card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.ds-card .ct { font-size:14px; font-weight:700; line-height:1.35; margin-bottom:6px; }
+.ds-card .cm { font-size:11.5px; color:var(--muted); }
+[hidden] { display:none !important; }
+@media (max-width: 700px) { h1 { font-size: 32px; } .hero { padding: 40px 0 32px; } }
+</style></head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <span class="brand"><b>LLM4Impact</b> Demo</span>
+    <nav class="tabs">
+      <button data-view="gallery" class="active">Case Gallery</button>
+      <button data-view="dataset">Dataset Examples</button>
+      <button data-view="surface">Surface-Cue Ablation</button>
+      <button data-view="content">Content-Cue Ablation</button>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<div class="hero">
+  <h1><span class="llm">LLM4Impact</span>: Integrating Heterogeneous Information for <span class="impact">Scientific Impact Prediction</span></h1>
+  <p class="eyebrow">Interactive Demo &middot; Offline Reviewer Copy</p>
+  <p class="release-note">We will release our live demo after publication.</p>
+  <p class="lede">Real papers from top CS/ML venues (NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, ACL, ICASSP, KDD; all published
+  2021 so a full 5-year citation trajectory is observable), plus the two ablation studies run earlier this project
+  (surface metadata cues and abstract-content cues).</p>
+</div>
+
+<section id="view-gallery">
+  <div id="galleryList"></div>
+</section>
+
+<section id="view-dataset" hidden>
+  <div id="datasetList"></div>
+</section>
+
+<section id="view-surface" hidden></section>
+<section id="view-content" hidden></section>
+
+<script src="data.js"></script>
+<script>
+const METHOD_LABEL = { scibert:'SciBERT', dppdcc:'DPPDCC', h2cgl:'H2CGL', naip:'NAIP', llm4impact:'LLM4Impact (ours, 0.6B)', llm4impact_7b:'LLM4Impact (ours, 7B)' };
+const METHOD_COLOR = { scibert:'var(--m-scibert)', dppdcc:'var(--m-dppdcc)', h2cgl:'var(--m-h2cgl)', naip:'var(--m-naip)', llm4impact:'var(--m-llm4impact)', llm4impact_7b:'var(--m-llm4impact_7b)' };
+const YEAR_PERIODS = ['+1y','+2y','+3y','+4y','+5y'];
+const MONTH_PERIODS = ['+0mo','+1mo','+2mo','+3mo','+4mo','+5mo'];
+
+function escapeHtml(s){ return (s==null?'':String(s)).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function fmt(n){ return (n==null) ? '–' : Number(n).toLocaleString('en-US', {maximumFractionDigits:2}); }
+
+function paperMetaHtml(p) {
+  const refs = p.references || [];
+  const REF_SHOWN = 40;
+  return `
+    <div class="meta-grid">
+      <div>
+        <div class="field-label">Publication Year</div>
+        <div class="chip-row"><span class="chip">${p.pub_year}</span></div>
+        <div class="field-label">Venue</div>
+        <div class="chip-row"><span class="chip">${escapeHtml(p.venue)}</span></div>
+        <div class="field-label">Abstract</div>
+        ${p.abstract ? `<div class="abstract">${escapeHtml(p.abstract)}</div>` : '<div class="hint">No abstract available.</div>'}
+        <div class="field-label">Categories</div>
+        <div class="chip-row">${(p.categories||[]).map(c => `<span class="chip">${escapeHtml(c)}</span>`).join('') || '<span class="hint">none</span>'}</div>
+      </div>
+      <div>
+        <div class="field-label">Author(s)</div>
+        <div class="chip-row">${(p.authors||[]).map(a => `<span class="chip">${escapeHtml(a.name)}</span>`).join('') || '<span class="hint">none listed</span>'}</div>
+        <div class="field-label">Institution(s)</div>
+        <div class="chip-row">${(p.institutions||[]).map(i => `<span class="chip">${escapeHtml(i)}</span>`).join('') || '<span class="hint">none listed</span>'}</div>
+        <div class="field-label">References (${refs.length})</div>
+        <div class="ref-scroll">
+          ${refs.slice(0, REF_SHOWN).map(r => `<div class="ref-item">${escapeHtml(r.title || ('corpusid ' + r.corpusid))} <span class="ry">${r.pub_year || 'n.d.'}</span></div>`).join('') || '<div class="ref-item hint">none</div>'}
+          ${refs.length > REF_SHOWN ? `<div class="ref-item hint">&hellip; and ${refs.length - REF_SHOWN} more</div>` : ''}
+        </div>
+      </div>
+    </div>`;
+}
+
+function barChartSvg(periods, predicted, golden, color) {
+  const maxV = Math.max(1, ...predicted, ...(golden||[]).filter(v=>v!=null));
+  const logScale = v => Math.log1p(Math.max(0, v));
+  const maxLog = Math.max(1e-6, logScale(maxV));
+  const w = 420, h = 150, padL = 6, padB = 20, padT = 20, padR = 6;
+  const innerW = w - padL - padR, innerH = h - padT - padB;
+  const band = innerW / periods.length;
+  const groupW = Math.max(10, Math.min(46, band - 6));
+  const barW = golden ? groupW/2 - 1.5 : groupW - 2;
+  let bars = '';
+  periods.forEach((p, i) => {
+    const gx = padL + i*band + (band-groupW)/2;
+    const v = predicted[i];
+    const predH = (logScale(v)/maxLog) * innerH;
+    const predX = gx, predY = padT + innerH - predH;
+    bars += `<rect x="${predX.toFixed(1)}" y="${predY.toFixed(1)}" width="${barW.toFixed(1)}" height="${predH.toFixed(1)}" rx="3" fill="${color}"></rect>`;
+    bars += `<text class="bar-val" x="${(predX+barW/2).toFixed(1)}" y="${(predY-4).toFixed(1)}" text-anchor="middle">${v.toFixed(0)}</text>`;
+    if (golden && golden[i] != null) {
+      const g = golden[i];
+      const goldH = (logScale(g)/maxLog) * innerH;
+      const goldX = gx + barW + 3, goldY = padT + innerH - goldH;
+      bars += `<rect x="${goldX.toFixed(1)}" y="${goldY.toFixed(1)}" width="${barW.toFixed(1)}" height="${goldH.toFixed(1)}" rx="3" fill="var(--gold)"></rect>`;
+      bars += `<text class="bar-val" x="${(goldX+barW/2).toFixed(1)}" y="${(goldY-4).toFixed(1)}" text-anchor="middle">${g.toFixed(0)}</text>`;
+    }
+    bars += `<text class="axis" x="${(gx+groupW/2).toFixed(1)}" y="${h-4}" text-anchor="middle">${p}</text>`;
+  });
+  return `<svg class="chart-svg" viewBox="0 0 ${w} ${h}">${bars}</svg>`;
+}
+
+/* ---------------- Case Gallery (expand-in-place accordion) ---------------- */
+let galleryFilter = 'all';
+let expandedCaseId = null;
+
+function caseDetailHtml(c) {
+  const methodEntries = Object.entries(c.methods);
+  const msleRank = methodEntries.filter(([,r]) => r.msle != null).sort((a,b) => a[1].msle - b[1].msle);
+  const bestMethod = msleRank.length ? msleRank[0][0] : null;
+  let calloutHtml = '';
+  if (c.tag === 'winner') {
+    calloutHtml = `<div class="callout">LLM4Impact (0.6B) has the lowest MSLE among all 5 methods on this paper (${c.methods.llm4impact.msle.toFixed(4)}) &mdash;
+      ${(100*(1 - c.methods.llm4impact.msle / Math.min(...methodEntries.filter(([m])=>m!=='llm4impact').map(([,r])=>r.msle)))).toFixed(0)}% lower error than the next-best baseline.</div>`;
+  } else if (c.tag === 'loss') {
+    calloutHtml = `<div class="callout neutral">Included for balance: LLM4Impact does not win on this paper (best method here is ${METHOD_LABEL[bestMethod]}) &mdash;
+      shown so this gallery isn't only cherry-picked wins.</div>`;
+  } else {
+    calloutHtml = `<div class="callout neutral">A representative, non-cherry-picked case &mdash; LLM4Impact is competitive but roughly tied with the field here.</div>`;
+  }
+  return `
+    <button class="back-btn collapse-btn" data-collapse="case">&uarr; Collapse &middot; back to list</button>
+    <div class="picked">${escapeHtml(c.title)}</div>
+    <div class="picked-meta">corpusid ${c.corpusid} &middot; <b>${c.citationcount_now.toLocaleString()}</b> citations to date</div>
+    ${paperMetaHtml(c)}
+    ${calloutHtml}
+    <div class="method-grid">
+      ${methodEntries.map(([m, r]) => `
+        <div class="method-panel ${m===bestMethod ? 'winner-highlight' : ''}">
+          <div class="m-badge"><span class="m-dot" style="background:${METHOD_COLOR[m]}"></span>${METHOD_LABEL[m]}${m===bestMethod ? ' &middot; best here' : ''}</div>
+          ${barChartSvg(YEAR_PERIODS, r.citations, c.golden, METHOD_COLOR[m])}
+          <div class="legend"><span><span class="sw" style="background:${METHOD_COLOR[m]}"></span>predicted</span><span><span class="sw" style="background:var(--gold)"></span>actual</span></div>
+          <div class="stat-row">
+            <div class="stat-tile ${m===bestMethod?'win':''}"><div class="sl">MSLE</div><div class="sv">${r.msle!=null?r.msle.toFixed(4):'–'}</div></div>
+            <div class="stat-tile"><div class="sl">Ego-tree neighbors</div><div class="sv">${r.n_ego_nodes}</div></div>
+          </div>
+        </div>`).join('')}
+    </div>`;
+}
+
+function renderGalleryList() {
+  const filtered = CASES.filter(c => galleryFilter === 'all' || c.tag === galleryFilter);
+  const counts = { all: CASES.length, winner: CASES.filter(c=>c.tag==='winner').length,
+                   typical: CASES.filter(c=>c.tag==='typical').length, loss: CASES.filter(c=>c.tag==='loss').length };
+  document.getElementById('galleryList').innerHTML = `
+    <div class="gallery-controls">
+      <span class="filter-chip ${galleryFilter==='all'?'on':''}" data-f="all">All (${counts.all})</span>
+      <span class="filter-chip ${galleryFilter==='winner'?'on':''}" data-f="winner">LLM4Impact wins (${counts.winner})</span>
+      <span class="filter-chip ${galleryFilter==='typical'?'on':''}" data-f="typical">Typical (${counts.typical})</span>
+      <span class="filter-chip ${galleryFilter==='loss'?'on':''}" data-f="loss">Honest loss (${counts.loss})</span>
+    </div>
+    <p class="hint">Click any paper to expand all 5 methods' 5-year citation forecast against the real (golden) trajectory.
+    "LLM4Impact wins" = its MSLE (mean squared log error vs. golden) beats the best of the other 4 baselines on this paper;
+    a few typical and one honest-loss case are included too, not just cherry-picked wins.</p>
+    <div class="case-grid">
+      ${filtered.map(c => c.corpusid === expandedCaseId ? `
+        <div class="case-card expanded">${caseDetailHtml(c)}</div>` : `
+        <div class="case-card" data-cid="${c.corpusid}">
+          <span class="badge ${c.tag}">${c.tag === 'winner' ? 'LLM4Impact wins' : c.tag === 'loss' ? 'honest loss' : 'typical'}</span>
+          <div class="ct">${escapeHtml(c.title)}</div>
+          <div class="cm">${c.pub_year} &middot; ${escapeHtml(c.venue)} &middot; ${c.citationcount_now.toLocaleString()} citations to date</div>
+        </div>`).join('')}
+    </div>`;
+  document.querySelectorAll('.filter-chip').forEach(el => el.addEventListener('click', () => { galleryFilter = el.dataset.f; expandedCaseId = null; renderGalleryList(); }));
+  document.querySelectorAll('.case-card[data-cid]').forEach(el => el.addEventListener('click', () => {
+    expandedCaseId = Number(el.dataset.cid); renderGalleryList();
+    document.querySelector('.case-card.expanded')?.scrollIntoView({behavior:'smooth', block:'start'});
+  }));
+  document.querySelector('[data-collapse="case"]')?.addEventListener('click', (e) => {
+    e.stopPropagation(); expandedCaseId = null; renderGalleryList();
+  });
+}
+
+/* ---------------- Dataset Examples (expand-in-place accordion) ---------------- */
+let dsSort = 'citations_desc';
+let expandedDsId = null;
+
+function datasetDetailHtml(p) {
+  const knownYearGolden = p.golden.map((g,i) => g!=null ? {p: YEAR_PERIODS[i], g} : null).filter(Boolean);
+  const knownMonthGolden = (p.golden_month||[]).map((g,i) => (i > 0 && g!=null) ? {p: MONTH_PERIODS[i], g} : null).filter(Boolean);
+  return `
+    <button class="back-btn collapse-btn" data-collapse="dataset">&uarr; Collapse &middot; back to list</button>
+    <div class="picked">${escapeHtml(p.title)}</div>
+    <div class="picked-meta">corpusid ${p.corpusid} &middot; split: ${p.split} &middot;
+      <b>${p.citationcount_now.toLocaleString()}</b> citations to date</div>
+    ${paperMetaHtml(p)}
+    <div class="method-grid">
+      <div>
+        <div class="field-label">Golden target (year) &mdash; real cumulative citations at each horizon</div>
+        <table class="ablation">
+          <thead><tr><th>Horizon</th><th>Actual citations</th></tr></thead>
+          <tbody>${knownYearGolden.map(k => `<tr><td>${k.p}</td><td class="num">${k.g.toFixed(0)}</td></tr>`).join('') || '<tr><td colspan="2" class="hint">No horizon observable yet</td></tr>'}</tbody>
+        </table>
+      </div>
+      <div>
+        <div class="field-label">Golden target (month) &mdash; real cumulative citations at each horizon</div>
+        <table class="ablation">
+          <thead><tr><th>Horizon</th><th>Actual citations</th></tr></thead>
+          <tbody>${knownMonthGolden.map(k => `<tr><td>${k.p}</td><td class="num">${k.g.toFixed(0)}</td></tr>`).join('') || '<tr><td colspan="2" class="hint">No horizon observable yet</td></tr>'}</tbody>
+        </table>
+      </div>
+    </div>`;
+}
+
+function renderDatasetList() {
+  let items = DATASET_EXAMPLES.slice();
+  if (dsSort === 'citations_desc') items.sort((a,b) => b.citationcount_now - a.citationcount_now);
+  else if (dsSort === 'citations_asc') items.sort((a,b) => a.citationcount_now - b.citationcount_now);
+  else if (dsSort === 'year') items.sort((a,b) => a.pub_year - b.pub_year);
+
+  document.getElementById('datasetList').innerHTML = `
+    <div class="card">
+      <h2 style="margin-top:0;">Dataset Examples</h2>
+      <p class="hint">${DATASET_EXAMPLES.length} real query papers (top CS/ML venues, pub_year=2021) with full metadata
+      and their real (golden) 5-year citation trajectory &mdash; this is the raw task itself (paper in, future
+      citation counts out), independent of any model's predictions. Click a paper to expand its full detail.</p>
+      <div class="gallery-controls">
+        <select id="dsSortSelect">
+          <option value="citations_desc">Sort: most cited first</option>
+          <option value="citations_asc">Sort: least cited first</option>
+          <option value="year">Sort: by year</option>
+        </select>
+      </div>
+      <div class="ds-grid">
+        ${items.map(p => p.corpusid === expandedDsId ? `
+          <div class="ds-card expanded">${datasetDetailHtml(p)}</div>` : `
+          <div class="ds-card" data-cid="${p.corpusid}">
+            <div class="ct">${escapeHtml(p.title)}</div>
+            <div class="cm">${p.pub_year} &middot; ${escapeHtml(p.venue)} &middot; ${p.citationcount_now.toLocaleString()} citations to date</div>
+          </div>`).join('')}
+      </div>
+    </div>`;
+  document.getElementById('dsSortSelect').value = dsSort;
+  document.getElementById('dsSortSelect').addEventListener('change', e => { dsSort = e.target.value; renderDatasetList(); });
+  document.querySelectorAll('.ds-card[data-cid]').forEach(el => el.addEventListener('click', () => {
+    expandedDsId = Number(el.dataset.cid); renderDatasetList();
+    document.querySelector('.ds-card.expanded')?.scrollIntoView({behavior:'smooth', block:'start'});
+  }));
+  document.querySelector('[data-collapse="dataset"]')?.addEventListener('click', (e) => {
+    e.stopPropagation(); expandedDsId = null; renderDatasetList();
+  });
+}
+
+/* ---------------- Surface-Cue Ablation ---------------- */
+function renderSurfaceAblation() {
+  const d = SURFACE_ABLATION;
+  const perturbations = ['add_top_authors', 'pub_year_to_latest', 'venue_to_arxiv', 'remove_impactful_refs'];
+  const pertLabel = { add_top_authors: 'Add 2 top-cited authors', pub_year_to_latest: 'Push pub_year to latest',
+                       venue_to_arxiv: 'Venue → arXiv.org', remove_impactful_refs: 'Remove 2-3 impactful refs' };
+  const methods = d.methods;
+
+  function avgDelta(pert, method) {
+    const deltas = [];
+    d.papers.forEach(p => {
+      const base = p.configs.baseline[method], variant = p.configs[pert] ? p.configs[pert][method] : null;
+      if (base && variant && base.citations && variant.citations) deltas.push(variant.citations[4] - base.citations[4]);
+    });
+    return deltas.length ? deltas.reduce((a,b)=>a+b,0)/deltas.length : null;
+  }
+
+  const matrixHtml = `
+    <table class="ablation">
+      <thead><tr><th>Perturbation</th>${methods.map(m=>`<th>${METHOD_LABEL[m]}</th>`).join('')}</tr></thead>
+      <tbody>
+        ${perturbations.map(pert => `
+          <tr><td>${pertLabel[pert]}</td>${methods.map(m => {
+            const v = avgDelta(pert, m);
+            const cls = v==null ? '' : (v < -1 ? 'neg' : v > 1 ? 'pos' : '');
+            return `<td class="num ${cls}">${v==null?'–':(v>=0?'+':'')+v.toFixed(1)}</td>`;
+          }).join('')}</tr>`).join('')}
+      </tbody>
+    </table>
+    <p class="hint" style="margin-top:10px;">Mean change in the year-5 cumulative-citation prediction vs. each paper's own baseline, averaged over the ${d.papers.length} papers (CS-venue subsample, seed ${d.seed}). Negative = perturbation makes the model predict fewer citations.</p>`;
+
+  const paperOptions = d.papers.map((p,i) => `<option value="${i}">${escapeHtml(p.title)}</option>`).join('');
+
+  document.getElementById('view-surface').innerHTML = `
+    <div class="card">
+      <h2 style="margin-top:0;">Surface-Cue Ablation Study</h2>
+      <p class="hint">Single-variable perturbations of paper metadata (author list, publication year, venue, reference list) on ${d.papers.length} real CS-venue papers, replayed against ${methods.length} trained baselines at year granularity.</p>
+      ${matrixHtml}
+      <div class="section-title">Per-paper drilldown</div>
+      <div class="gallery-controls"><select id="surfacePaperSelect">${paperOptions}</select></div>
+      <div id="surfacePaperDetail"></div>
+    </div>`;
+
+  function renderPaperDetail(i) {
+    const p = d.papers[i];
+    const configs = Object.keys(p.configs);
+    document.getElementById('surfacePaperDetail').innerHTML = configs.map(cfgName => {
+      const cfg = p.configs[cfgName];
+      let removedNote = '';
+      if (cfgName === 'remove_impactful_refs' && cfg.removed_refs) {
+        removedNote = `<div class="removed-refs">Removed references (corpusid): ${cfg.removed_refs.map(r=>`<code>${r}</code>`).join(' ')} out of ${cfg.n_real_refs} real references.</div>`;
+      }
+      return `
+        <div class="section-title" style="font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);">${cfgName === 'baseline' ? 'Baseline (real values)' : pertLabel[cfgName] || cfgName}</div>
+        ${removedNote}
+        <div class="method-grid">
+          ${methods.map(m => cfg[m] && cfg[m].citations ? `
+            <div class="method-panel">
+              <div class="m-badge" style="font-size:12.5px;"><span class="m-dot" style="background:${METHOD_COLOR[m]}"></span>${METHOD_LABEL[m]}</div>
+              ${barChartSvg(YEAR_PERIODS, cfg[m].citations, cfg[m].golden, METHOD_COLOR[m])}
+            </div>` : '').join('')}
+        </div>`;
+    }).join('');
+  }
+  document.getElementById('surfacePaperSelect').addEventListener('change', e => renderPaperDetail(Number(e.target.value)));
+  renderPaperDetail(0);
+}
+
+/* ---------------- Content-Cue Ablation ---------------- */
+function renderContentAblation() {
+  const d = CONTENT_ABLATION;
+  const perturbations = ['shuffle_sentences', 'truncate_to_first_sentence', 'generic_template', 'topic_swap'];
+  const pertLabel = { shuffle_sentences: 'Shuffle sentences', truncate_to_first_sentence: 'Truncate to 1st sentence',
+                       generic_template: 'Generic template', topic_swap: 'Topic swap (another paper’s abstract)' };
+  const methods = d.methods;
+
+  function avgDelta(pert, method, signal) {
+    const deltas = [];
+    d.papers.forEach(p => {
+      const base = p.configs.baseline[method], variant = p.configs[pert] ? p.configs[pert][method] : null;
+      if (base && variant && base[signal] && variant[signal]) deltas.push(variant[signal][4] - base[signal][4]);
+    });
+    return deltas.length ? deltas.reduce((a,b)=>a+b,0)/deltas.length : null;
+  }
+
+  function matrixFor(signal, title) {
+    return `
+      <div class="section-title">${title}</div>
+      <table class="ablation">
+        <thead><tr><th>Perturbation</th>${methods.map(m=>`<th>${METHOD_LABEL[m]}</th>`).join('')}</tr></thead>
+        <tbody>
+          ${perturbations.map(pert => `
+            <tr><td>${pertLabel[pert]}</td>${methods.map(m => {
+              const v = avgDelta(pert, m, signal);
+              const cls = v==null ? '' : (v < -5 ? 'neg' : v > 5 ? 'pos' : '');
+              return `<td class="num ${cls}">${v==null?'–':(v>=0?'+':'')+v.toFixed(1)}</td>`;
+            }).join('')}</tr>`).join('')}
+        </tbody>
+      </table>`;
+  }
+
+  const paperOptions = d.papers.map((p,i) => `<option value="${i}">${escapeHtml(p.title)}</option>`).join('');
+
+  document.getElementById('view-content').innerHTML = `
+    <div class="card">
+      <h2 style="margin-top:0;">Content-Cue Ablation Study</h2>
+      <p class="hint">Abstract-content perturbations, isolating what LLM4Impact's LLM branch reads off the text itself &mdash; only ${methods.map(m=>METHOD_LABEL[m]).join(' and ')} are tested (the only two baselines with a dedicated, content-sensitive LLM branch), on a ${d.papers.length}-paper CS pool.</p>
+      ${matrixFor('citations', 'Final fused prediction (year-5 Δ vs. baseline)')}
+      ${matrixFor('llm_branch_citations', 'LLM branch isolated prediction (pre-fusion, year-5 Δ vs. baseline)')}
+      <p class="hint" style="margin-top:10px;">Sentence shuffling preserves every word (destroys only narrative order); the other three destroy or replace the actual content. The isolated LLM-branch numbers track the final numbers closely, meaning the semantic/graph branches don't dilute this content sensitivity away.</p>
+      <div class="section-title">Per-paper drilldown</div>
+      <div class="gallery-controls"><select id="contentPaperSelect">${paperOptions}</select></div>
+      <div id="contentPaperDetail"></div>
+    </div>`;
+
+  function renderPaperDetail(i) {
+    const p = d.papers[i];
+    const configs = Object.keys(p.configs);
+    document.getElementById('contentPaperDetail').innerHTML = configs.map(cfgName => `
+      <div class="section-title" style="font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);">${cfgName === 'baseline' ? 'Baseline (real abstract)' : pertLabel[cfgName] || cfgName}</div>
+      <div class="method-grid">
+        ${methods.map(m => {
+          const cfg = p.configs[cfgName][m];
+          if (!cfg || !cfg.citations) return '';
+          return `
+            <div class="method-panel">
+              <div class="m-badge" style="font-size:12.5px;"><span class="m-dot" style="background:${METHOD_COLOR[m]}"></span>${METHOD_LABEL[m]} <span style="color:var(--muted);font-weight:500;">(final fused)</span></div>
+              ${barChartSvg(YEAR_PERIODS, cfg.citations, cfg.golden, METHOD_COLOR[m])}
+              ${cfg.llm_branch_citations ? `<div class="hint" style="margin:6px 0 0;">LLM branch alone (pre-fusion): ${cfg.llm_branch_citations.map(v=>v.toFixed(1)).join(', ')}</div>` : ''}
+            </div>`;
+        }).join('')}
+      </div>`).join('');
+  }
+  document.getElementById('contentPaperSelect').addEventListener('change', e => renderPaperDetail(Number(e.target.value)));
+  renderPaperDetail(0);
+}
+
+/* ---------------- Nav ---------------- */
+const views = { gallery: 'view-gallery', dataset: 'view-dataset', surface: 'view-surface', content: 'view-content' };
+let rendered = { dataset: false, surface: false, content: false };
+document.querySelectorAll('nav.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('nav.tabs button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    Object.values(views).forEach(id => document.getElementById(id).hidden = true);
+    document.getElementById(views[btn.dataset.view]).hidden = false;
+    if (btn.dataset.view === 'dataset' && !rendered.dataset) { renderDatasetList(); rendered.dataset = true; }
+    if (btn.dataset.view === 'surface' && !rendered.surface) { renderSurfaceAblation(); rendered.surface = true; }
+    if (btn.dataset.view === 'content' && !rendered.content) { renderContentAblation(); rendered.content = true; }
+  });
+});
+
+renderGalleryList();
+
+/* sticky header gets a shadow once the page has scrolled past the hero */
+const siteHeader = document.querySelector('.site-header');
+window.addEventListener('scroll', () => {
+  siteHeader.classList.toggle('scrolled', window.scrollY > 8);
+}, { passive: true });
+</script>
+</div>
+</body></html>
