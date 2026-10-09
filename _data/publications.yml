@@ -18,6 +18,8 @@
   type: preprint
   topic: science
   tags: [first]
+  links:
+    paper: https://arxiv.org/abs/2610.10138
   image: /images/papers/2026_impact.png
 
 - title: "NextMotionQA: Benchmarking and Judging Human Motion Understanding with Vision-Language Models"
@@ -39,6 +41,8 @@
   type: preprint
   topic: multimodal
   tags: [first]
+  links:
+    paper: https://arxiv.org/abs/2609.38466
   image: /images/papers/2026_pami.png
   image_fit: contain
 
