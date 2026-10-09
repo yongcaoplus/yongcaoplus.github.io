@@ -26,6 +26,10 @@ links:
 
 # ---------- News (newest first; first 6 shown, rest folded) ----------
 news:
+  - date: "2026-10"
+    text: "The fifth [C3NLP Workshop](https://c3nlp.github.io/) we are organizing is accepted to **ACL 2027**. Stay tuned for more updates!"
+  - date: "2026-09"
+    text: "Two papers, [PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation](https://arxiv.org/abs/2609.38466) and [LLM4Impact: Integrating Heterogeneous Information for Scientific Impact Prediction](https://arxiv.org/abs/2610.10138), are on arXiv."
   - date: "2026-07"
     text: "We are organizing the first [AIASci workshop](https://aiasciworkshop.github.io/) — End-to-End Research Workflow, Methods, and Applications for AI-Assisted Science — @ [AIAS](https://www.aiasplus.org/) 2026."
   - date: "2026-06"
